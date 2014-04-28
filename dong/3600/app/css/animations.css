@@ -1,0 +1,61 @@
+ /*-------------主页搜索框效果-----------*/
+.schBxCtn {
+	position: absolute;
+	right: 11px;
+	top: 15px;
+	/*width: 100%;*/
+	/*display: none;*/
+	padding-right: 4px;
+	width: 400px;
+	/*overflow: hidden;*/
+	opacity: 1;	
+}
+.schBxCtn.ng-hide-add, .schBxCtn.ng-hide-remove {
+	-webkit-transition:all ease-in-out .5s;
+	-moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+	-o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+	transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+	/*width:23px;*/
+	display: block!important;	
+}
+.schBxCtn.ng-hide {
+	/*overflow: hidden;*/
+	/*display: none;*/
+    width: 23px;
+    opacity: 0;
+}
+
+
+/*-------------YX图标呼吸灯---------------*/
+.yxBtnBreath {
+	opacity:0.1;
+	
+	-webkit-animation-name: yxBtnBreath;
+	-webkit-animation-duration: 5s;		/*人的普通呼吸时间是3秒每次，深呼吸时间是6秒每次*/
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes 'yxBtnBreath' {
+	from {
+		opacity:0;
+	}
+	50% {
+		opacity:1;
+	}
+	to {
+		opacity:0;
+	}
+}
+
+/*@-webkit-keyframes 'yxBtnBreath2' {
+	from {
+		opacity:0.5;
+	}
+	50% {
+		opacity:1;
+	}
+	to {
+		opacity:0.5;
+	}*/
+}

@@ -1,0 +1,6013 @@
+@charset "UTF-8";/*!
+ * JingUI v3.2.5
+ *
+ * Copyright 2013 Jing, Inc
+ * 
+ */
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix:before,.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.hide-text {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-ms-keyframes rotate {
+    from {
+        -ms-transform: rotate(0deg)
+    }
+
+    to {
+        -ms-transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes rotate {
+    from {
+        -o-transform: rotate(0deg)
+    }
+
+    to {
+        -o-transform: rotate(360deg)
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes halfRotate {
+    from {
+        -webkit-transform: rotate(20deg)
+    }
+
+    to {
+        -webkit-transform: rotate(-20deg)
+    }
+}
+
+@-moz-keyframes halfRotate {
+    from {
+        -moz-transform: rotate(20deg)
+    }
+
+    to {
+        -moz-transform: rotate(-20deg)
+    }
+}
+
+@-ms-keyframes halfRotate {
+    from {
+        -ms-transform: rotate(20deg)
+    }
+
+    to {
+        -ms-transform: rotate(-20deg)
+    }
+}
+
+@-o-keyframes halfRotate {
+    from {
+        -o-transform: rotate(20deg)
+    }
+
+    to {
+        -o-transform: rotate(-20deg)
+    }
+}
+
+@keyframes halfRotate {
+    from {
+        transform: rotate(20deg)
+    }
+
+    to {
+        transform: rotate(-20deg)
+    }
+}
+
+@-webkit-keyframes antiRotate {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg)
+    }
+}
+
+@-moz-keyframes antiRotate {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+
+    to {
+        -moz-transform: rotate(-360deg)
+    }
+}
+
+@-ms-keyframes antiRotate {
+    from {
+        -ms-transform: rotate(0deg)
+    }
+
+    to {
+        -ms-transform: rotate(-360deg)
+    }
+}
+
+@-o-keyframes antiRotate {
+    from {
+        -o-transform: rotate(0deg)
+    }
+
+    to {
+        -o-transform: rotate(-360deg)
+    }
+}
+
+@keyframes antiRotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(-360deg)
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-ms-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-moz-keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-ms-keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-o-keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .5
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes popping {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.8)
+    }
+
+    25% {
+        opacity: .35;
+        -webkit-transform: scale(1.4)
+    }
+
+    50% {
+        opacity: .5;
+        -webkit-transform: scale(1.2)
+    }
+
+    65% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1)
+    }
+}
+
+@-moz-keyframes popping {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.8)
+    }
+
+    25% {
+        opacity: .35;
+        -webkit-transform: scale(1.4)
+    }
+
+    50% {
+        opacity: .5;
+        -webkit-transform: scale(1.2)
+    }
+
+    65% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1)
+    }
+}
+
+@-ms-keyframes popping {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.8)
+    }
+
+    25% {
+        opacity: .35;
+        -webkit-transform: scale(1.4)
+    }
+
+    50% {
+        opacity: .5;
+        -webkit-transform: scale(1.2)
+    }
+
+    65% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes popping {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.8)
+    }
+
+    25% {
+        opacity: .35;
+        -webkit-transform: scale(1.4)
+    }
+
+    50% {
+        opacity: .5;
+        -webkit-transform: scale(1.2)
+    }
+
+    65% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1)
+    }
+}
+
+@-webkit-keyframes disappear {
+    from {
+        opacity: 1;
+        display: block;
+        -webkit-transform: scale(1)
+    }
+
+    25% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    50% {
+        opacity: .7;
+        -webkit-transform: scale(0.5)
+    }
+
+    75% {
+        opacity: .6;
+        -webkit-transform: scale(0.2)
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+        -webkit-transform: scale(0)
+    }
+}
+
+@-moz-keyframes disappear {
+    from {
+        opacity: 1;
+        display: block;
+        -webkit-transform: scale(1)
+    }
+
+    25% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    50% {
+        opacity: .7;
+        -webkit-transform: scale(0.5)
+    }
+
+    75% {
+        opacity: .6;
+        -webkit-transform: scale(0.2)
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+        -webkit-transform: scale(0)
+    }
+}
+
+@-ms-keyframes disappear {
+    from {
+        opacity: 1;
+        display: block;
+        -webkit-transform: scale(1)
+    }
+
+    25% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    50% {
+        opacity: .7;
+        -webkit-transform: scale(0.5)
+    }
+
+    75% {
+        opacity: .6;
+        -webkit-transform: scale(0.2)
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+        -webkit-transform: scale(0)
+    }
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+        display: block;
+        -webkit-transform: scale(1)
+    }
+
+    25% {
+        opacity: .75;
+        -webkit-transform: scale(0.8)
+    }
+
+    50% {
+        opacity: .7;
+        -webkit-transform: scale(0.5)
+    }
+
+    75% {
+        opacity: .6;
+        -webkit-transform: scale(0.2)
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+        -webkit-transform: scale(0)
+    }
+}
+
+@-webkit-keyframes flip {
+    0% {
+        -webkit-transform: rotate3d(0,1,0,0)
+    }
+
+    50% {
+        -webkit-transform: rotate3d(0,1,0,-190deg)
+    }
+
+    70% {
+        -webkit-transform: rotate3d(0,1,0,-172deg)
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0,1,0,-180deg)
+    }
+
+    95% {
+        -webkit-transform: rotate3d(0,1,0,-178deg)
+    }
+
+    100% {
+        -webkit-transform: rotate3d(0,1,0,-180deg)
+    }
+}
+
+@-moz-keyframes flip {
+    0% {
+        -moz-transform: rotate3d(0,1,0,0)
+    }
+
+    50% {
+        -moz-transform: rotate3d(0,1,0,-190deg)
+    }
+
+    70% {
+        -moz-transform: rotate3d(0,1,0,-172deg)
+    }
+
+    80% {
+        -moz-transform: rotate3d(0,1,0,-180deg)
+    }
+
+    95% {
+        -moz-transform: rotate3d(0,1,0,-178deg)
+    }
+
+    100% {
+        -webkit-transform: rotate3d(0,1,0,-180deg)
+    }
+}
+
+@-ms-keyframes flip {
+    0% {
+        -ms-transform: rotate3d(0,1,0,0)
+    }
+
+    50% {
+        -ms-transform: rotate3d(0,1,0,-190deg)
+    }
+
+    70% {
+        -ms-transform: rotate3d(0,1,0,-172deg)
+    }
+
+    80% {
+        -ms-transform: rotate3d(0,1,0,-180deg)
+    }
+
+    95% {
+        -ms-transform: rotate3d(0,1,0,-178deg)
+    }
+
+    100% {
+        -ms-transform: rotate3d(0,1,0,-180deg)
+    }
+}
+
+@keyframes flip {
+    0% {
+        transform: rotate3d(0,1,0,0)
+    }
+
+    50% {
+        transform: rotate3d(0,1,0,-190deg)
+    }
+
+    70% {
+        transform: rotate3d(0,1,0,-172deg)
+    }
+
+    80% {
+        transform: rotate3d(0,1,0,-180deg)
+    }
+
+    95% {
+        transform: rotate3d(0,1,0,-178deg)
+    }
+
+    100% {
+        transform: rotate3d(0,1,0,-180deg)
+    }
+}
+
+@-webkit-keyframes scaleUp {
+    0% {
+        -webkit-transform: translateX(0) scale(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(0) scale(1)
+    }
+}
+
+@-moz-keyframes scaleUp {
+    0% {
+        -moz-transform: translateX(0) scale(0)
+    }
+
+    100% {
+        -moz-transform: translateX(0) scale(1)
+    }
+}
+
+@-ms-keyframes scaleUp {
+    0% {
+        -ms-transform: translateX(0) scale(0)
+    }
+
+    100% {
+        -ms-transform: translateX(0) scale(1)
+    }
+}
+
+@-o-keyframes scaleUp {
+    0% {
+        -o-transform: translateX(0) scale(0)
+    }
+
+    100% {
+        -o-transform: translateX(0) scale(1)
+    }
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: translateX(0) scale(0)
+    }
+
+    100% {
+        transform: translateX(0) scale(1)
+    }
+}
+
+@-webkit-keyframes loading {
+    0% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+
+    25% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    50% {
+        height: 28px;
+        opacity: .9;
+        margin-top: 0
+    }
+
+    75% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    100% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+}
+
+@-moz-keyframes loading {
+    0% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+
+    25% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    50% {
+        height: 28px;
+        opacity: .9;
+        margin-top: 0
+    }
+
+    75% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    100% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+}
+
+@-ms-keyframes loading {
+    0% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+
+    25% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    50% {
+        height: 28px;
+        opacity: .9;
+        margin-top: 0
+    }
+
+    75% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    100% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+}
+
+@-o-keyframes loading {
+    0% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+
+    25% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    50% {
+        height: 28px;
+        opacity: .9;
+        margin-top: 0
+    }
+
+    75% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    100% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+}
+
+@keyframes loading {
+    0% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+
+    25% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    50% {
+        height: 28px;
+        opacity: .9;
+        margin-top: 0
+    }
+
+    75% {
+        height: 24px;
+        opacity: .7;
+        margin-top: 2px
+    }
+
+    100% {
+        height: 20px;
+        opacity: .5;
+        margin-top: 4px
+    }
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
+    display: block
+}
+
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: inherit
+}
+
+audio,canvas,video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+audio:not([controls]) {
+    display: none
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+a:hover,a:active {
+    outline: 0
+}
+
+sub,sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+img {
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic
+}
+
+button,input,select,textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle
+}
+
+button,input {
+    *overflow: visible;
+    line-height: normal
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+button,html input[type="button"],input[type="reset"],input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+label,select,button,input[type="button"],input[type="reset"],input[type="submit"],input[type="radio"],input[type="checkbox"] {
+    cursor: pointer
+}
+
+input[type="search"] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield
+}
+
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    -ms-content-zooming: none;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ol,ul {
+    list-style: none
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+    content: ""
+}
+
+p {
+    margin: 0 0 1.5em
+}
+
+a:focus,a:hover,a:active {
+    outline: 0
+}
+
+.ie6 html {
+    filter: "expression(document.execCommand(" BackgroundImageCache ", false, true))"
+}
+
+body,input {
+    font-size: 12px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased
+}
+
+.serif {
+    font-family: Georgia,"Times New Roman",Times,serif
+}
+
+.sans,input,textarea,body {
+    font-family: STHeiti,"微软雅黑","Microsoft Yahei",Arial,Helmet,Freesans,sans-serif
+}
+
+.fixWidth,pre,code {
+    font-family: "Century Gothic",Monaco,Menlo,Consolas,"Courier New",monospace
+}
+
+.numberFonts {
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin-bottom: .5em
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: .75em
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin-bottom: 1em
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.25;
+    margin-bottom: 1.25em
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1.5em
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: bold
+}
+
+body,select,input,textarea {
+    color: #555
+}
+
+a {
+    text-decoration: none;
+    color: #538da7;
+    outline: 0
+}
+
+a:hover {
+    color: #62a946
+}
+
+a:link {
+    -webkit-tap-highlight-color: transparent
+}
+
+a:active {
+    star: expression(this.onFocus=this.blur())
+}
+
+button:active {
+    star: expression(this.onFocus=this.blur())
+}
+
+.slct,.tit {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+    user-select: text
+}
+
+::selection,::-moz-selection {
+    background-color: #62a946;
+    color: #fff;
+    text-shadow: 0 1px 0 #333;
+    text-shadow: none\9
+}
+
+.ipad input[type="text"] {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none
+}
+
+body {
+    background: #eee
+}
+
+body .mdCtn {
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+body .fsapp {
+    width: 100%;
+    height: 100%;
+    background: rgba(225,225,225,0.99);
+    position: absolute;
+    z-index: 999
+}
+
+body .instSchCtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999
+}
+
+body .tbCtn {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    background: url(http://img.jing.fm/assets/jing-beta/mainbar.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/mainbar.png") 1x,url("http://img.jing.fm/assets/jing-beta/mainbar@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/mainbar.png") 1x,url("http://img.jing.fm/assets/jing-beta/mainbar@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/mainbar.png") 1x,url("http://img.jing.fm/assets/jing-beta/mainbar@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/mainbar.png") 1x,url("http://img.jing.fm/assets/jing-beta/mainbar@2x.png") 2x)
+}
+
+body .lgtBtn {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    z-index: 998;
+    background: url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -268px -128px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x)
+}
+
+body .lgtBtn:hover {
+    background-position: -228px -128px
+}
+
+body .num {
+    background: url(http://img.jing.fm/assets/jing-beta/newNumSprt.png) no-repeat scroll 0 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    width: 20px;
+    height: 21px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 11px
+}
+
+body .newApp {
+    background: url(http://img.jing.fm/assets/jing-beta/newNumSprt.png) no-repeat scroll -53px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/newNumSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/newNumSprt@2x.png") 2x);
+    width: 26px;
+    height: 21px;
+    position: absolute;
+    left: 11px;
+    top: -6px;
+    z-index: 9998
+}
+
+body .empty {
+    float: left;
+    height: 145px;
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    right: 25%
+}
+
+body .empty .empt {
+    width: 129px;
+    height: 104px;
+    background: url(http://img.jing.fm/assets/jing-beta/empty.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/empty.png") 1x,url("http://img.jing.fm/assets/jing-beta/empty@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/empty.png") 1x,url("http://img.jing.fm/assets/jing-beta/empty@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/empty.png") 1x,url("http://img.jing.fm/assets/jing-beta/empty@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/empty.png") 1x,url("http://img.jing.fm/assets/jing-beta/empty@2x.png") 2x);
+    float: left;
+    margin-bottom: 15px
+}
+
+body .empty .desc {
+    color: #aaa;
+    font-size: 12px;
+    text-align: center
+}
+
+.uploadify-queue {
+    display: none
+}
+
+.ftlg .mdCtn .mscPlrCtn .mscPlr .tit {
+    font-size: 16px
+}
+
+.ftlg .chatCtn .chatBd .chat .bbl .text {
+    font-size: 14px
+}
+
+.domiso {
+    width: 78px;
+    height: 28px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -44px;
+    margin-top: -24px;
+    z-index: 9999;
+    background: rgba(255,255,255,0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 8px
+}
+
+.domiso i {
+    background: #62a946;
+    width: 20px;
+    height: 20px;
+    margin: 4px 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: left
+}
+
+.domiso i.dancing {
+    -webkit-animation: loading 500ms infinite linear;
+    -moz-animation: loading 500ms infinite linear;
+    -ms-animation: loading 500ms infinite linear;
+    -o-animation: loading 500ms infinite linear;
+    animation: loading 500ms infinite linear
+}
+
+.wlcm .domiso,.lrc .domiso {
+    background: transparent
+}
+
+.wlcm .domiso i,.lrc .domiso i {
+    background: #fff
+}
+
+.wlcm .rgstrCtn i,.lrc .rgstrCtn i {
+    background: #62a946
+}
+
+.rndSqrCol {
+    float: left
+}
+
+.rndSqrCtn {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    position: relative;
+    float: left
+}
+
+.rndSqrCtn .rndSqr {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: url(http://img.jing.fm/assets/jing-beta/rndSqrMask.png) repeat-x scroll bottom;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x);
+    -webkit-box-shadow: 0 0 3px 0 rgba(44,44,44,0.5);
+    -moz-box-shadow: 0 0 3px 0 rgba(44,44,44,0.5);
+    box-shadow: 0 0 3px 0 rgba(44,44,44,0.5)
+}
+
+.rndSqrCtn .rndSqr .plyCtl {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    background: url(http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png) no-repeat scroll 0 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    -webkit-transition: opacity 200ms cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity 200ms cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity 200ms cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity 200ms cubic-bezier(0.075,0.82,0.165,1)
+}
+
+.rndSqrCtn .rndSqr .plyCtl.play {
+    background-position: 0 0
+}
+
+.rndSqrCtn .rndSqr .plyCtl.selected {
+    background-position: 0 -75px
+}
+
+.rndSqrCtn .rndSqr .plyCtl.selected.pause {
+    background-position: 0 0
+}
+
+.rndSqrCtn .rndSqr .insptCtn {
+    height: 32px;
+    min-width: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    width: auto;
+    max-width: 200px;
+    position: absolute;
+    bottom: 16px;
+    right: 14px;
+    overflow: hidden;
+    z-index: 1000
+}
+
+.rndSqrCtn .rndSqr .insptCtn:hover {
+    background: #62a946
+}
+
+.rndSqrCtn .rndSqr .insptCtn .inspt {
+    background: url(http://img.jing.fm/assets/jing-beta/rndSqrInspt.png);
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrInspt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrInspt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrInspt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrInspt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrInspt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrInspt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrInspt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrInspt@2x.png") 2x);
+    width: 24px;
+    height: 24px;
+    display: block;
+    float: right;
+    margin-right: 4px;
+    margin-top: 4px
+}
+
+.rndSqrCtn .rndSqr .insptCtn .cmbt {
+    height: 32px;
+    width: auto;
+    max-width: 90px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    right: 6px;
+    bottom: 0;
+    padding: 0 34px 0 12px;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.rndSqrCtn .cv {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    border: 0
+}
+
+.rndSqrCtn .tit {
+    color: #fff;
+    font-size: 64px;
+    margin: 42px 0 0 18px;
+    float: left;
+    width: 84%;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.rndSqrCtn .name,.rndSqrCtn .desc,.rndSqrCtn .n,.rndSqrCtn .an,.rndSqrCtn .atn {
+    color: #fff;
+    width: 84%;
+    position: absolute;
+    margin: 0 10px 0 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold
+}
+
+.rndSqrCtn .name,.rndSqrCtn .n {
+    font-size: 16px;
+    line-height: 18px;
+    bottom: 34px
+}
+
+.rndSqrCtn .desc {
+    font-size: 12px;
+    opacity: .9;
+    -moz-opacity: .9;
+    bottom: 16px;
+    line-height: 14px
+}
+
+.rndSqrCtn .an,.rndSqrCtn .atn {
+    font-size: 12px;
+    opacity: .5;
+    -moz-opacity: .5;
+    font-weight: normal;
+    line-height: 14px
+}
+
+.rndSqrCtn .n {
+    bottom: 46px;
+    font-weight: normal
+}
+
+.rndSqrCtn .an {
+    bottom: 28px;
+    opacity: .75;
+    -moz-opacity: .75
+}
+
+.rndSqrCtn .atn {
+    bottom: 14px
+}
+
+.scrlCtlCtn {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 34px;
+    float: left
+}
+
+.scrlCtl {
+    height: 38px;
+    background: #2c2c2c;
+    background: rgba(44,44,44,0.98);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    left: 50%;
+    float: left;
+    z-index: 1001
+}
+
+.scrlCtl p {
+    color: #ccc;
+    text-shadow: 1px 0 1px rgba(0,0,0,0.75);
+    text-shadow: none\9;
+    text-align: center;
+    line-height: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0 65px;
+    margin-bottom: 0
+}
+
+.scrlCtl p .cls {
+    color: #ccc
+}
+
+.scrlCtl .sldrBtn {
+    background: url(http://img.jing.fm/assets/jing-beta/sldrBtn.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/sldrBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrBtn@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/sldrBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrBtn@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/sldrBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrBtn@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/sldrBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrBtn@2x.png") 2x);
+    width: 42px;
+    height: 38px;
+    display: block;
+    position: absolute;
+    top: 0
+}
+
+.scrlCtl .sldrBtn .splt {
+    width: 1px;
+    background: url(http://img.jing.fm/assets/jing-beta/sldrSplt.png) repeat-y scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/sldrSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrSplt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/sldrSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrSplt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/sldrSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrSplt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/sldrSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/sldrSplt@2x.png") 2x);
+    height: 100%;
+    display: block;
+    position: absolute
+}
+
+.scrlCtl .sldrBtn.lft {
+    background-position: 0 0;
+    left: 0
+}
+
+.scrlCtl .sldrBtn.lft .splt {
+    right: -2px
+}
+
+.scrlCtl .sldrBtn.rght {
+    background-position: 0 -38px;
+    right: 0
+}
+
+.scrlCtl .sldrBtn.rght .splt {
+    left: -2px
+}
+
+.bgBtns {
+    width: 40px;
+    height: 40px;
+    background: url(http://img.jing.fm/assets/jing-beta/bgBtns.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    display: block
+}
+
+.bgBtns.flwLstBtn {
+    background-position: 0 0;
+    position: absolute;
+    bottom: 100px;
+    left: 45px;
+    z-index: 999
+}
+
+.bgBtns.flwLst {
+    background-position: 0 0
+}
+
+.bgBtns.chat {
+    background-position: -40px 0
+}
+
+.bgBtns.poke {
+    background-position: -80px 0
+}
+
+.bgBtns.addFrd {
+    background-position: -120px 0
+}
+
+.bgBtns.selected {
+    background-position: -160px 0
+}
+
+.jspScrollable {
+    outline: none 0
+}
+
+.jspContainer {
+    overflow: hidden;
+    position: relative
+}
+
+.jspPane {
+    position: absolute
+}
+
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 6px;
+    height: 0!important;
+    background: #ccc;
+    z-index: 9999
+}
+
+.jspVerticalBar * {
+    margin: 0;
+    padding: 0;
+    height: 0
+}
+
+.jspCap {
+    display: none
+}
+
+.jspTrack {
+    background: #fcfcfc;
+    position: relative;
+    height: 0;
+    opacity: auto
+}
+
+.jspDrag {
+    behavior: url(http://jing.fmhttp://img.jing.fm/assets/jing-beta/vendor/PIE.htc);
+    background: #ccc;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    opacity: auto
+}
+
+.jspDragTop {
+    opacity: auto
+}
+
+.jspDragBottom {
+    opacity: auto
+}
+
+.jspArrow {
+    background: #50506d;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer
+}
+
+.jspArrow.jspDisabled {
+    cursor: default;
+    background: #80808d
+}
+
+.jspVerticalBar .jspArrow {
+    height: 16px
+}
+
+.jspVerticalBar .jspArrow:focus {
+    outline: 0
+}
+
+.jspCorner {
+    background: #eeeef4;
+    float: left;
+    height: 100%
+}
+
+* html .jspCorner {
+    margin: 0 -3px 0 0
+}
+
+.vlmCtrl {
+    width: 96px;
+    height: 21px;
+    position: absolute;
+    z-index: 998;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    bottom: 90px;
+    right: 28px
+}
+
+.vlmCtrl .vlmIcon,.vlmCtrl .vlmCtn,.vlmCtrl .vlmCtn .vlmSlider,.vlmCtrl .vlmSlider .sldr {
+    background: url(http://img.jing.fm/assets/jing-beta/volumeCtrl.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/volumeCtrl.png") 1x,url("http://img.jing.fm/assets/jing-beta/volumeCtrl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/volumeCtrl.png") 1x,url("http://img.jing.fm/assets/jing-beta/volumeCtrl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/volumeCtrl.png") 1x,url("http://img.jing.fm/assets/jing-beta/volumeCtrl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/volumeCtrl.png") 1x,url("http://img.jing.fm/assets/jing-beta/volumeCtrl@2x.png") 2x)
+}
+
+.vlmCtrl .vlmIcon {
+    width: 21px;
+    height: 21px;
+    display: block;
+    float: left;
+    margin-right: 4px
+}
+
+.vlmCtrl .vlmCtn {
+    background-position: -50px 0;
+    width: 71px;
+    height: 21px;
+    float: left;
+    position: relative
+}
+
+.vlmCtrl .vlmCtn .vlmSlider {
+    background-position: 0 -25px;
+    background-repeat: repeat-x;
+    position: absolute;
+    height: 5px;
+    width: 45px;
+    margin-top: -2px;
+    top: 50%;
+    left: 10px
+}
+
+.vlmCtrl .vlmCtn .vlmSlider .sldr {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-position: -30px 0;
+    display: block;
+    top: -3px;
+    left: 90%
+}
+
+.tps {
+    background: #1c1c1c;
+    background: rgba(0,0,0,0.9);
+    border-bottom: 1px solid rgba(26,26,26,0.08);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    height: 24px;
+    float: left;
+    position: absolute;
+    z-index: 9999
+}
+
+.tps .tpsAr {
+    background: url(http://img.jing.fm/assets/jing-beta/tps.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/tps.png") 1x,url("http://img.jing.fm/assets/jing-beta/tps@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/tps.png") 1x,url("http://img.jing.fm/assets/jing-beta/tps@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/tps.png") 1x,url("http://img.jing.fm/assets/jing-beta/tps@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/tps.png") 1x,url("http://img.jing.fm/assets/jing-beta/tps@2x.png") 2x);
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    bottom: -5px
+}
+
+.tps .ctt {
+    color: #999;
+    text-shadow: #000 0 1px 0;
+    text-shadow: none\9;
+    text-align: center;
+    line-height: 25px;
+    font-size: 11px;
+    padding: 0 15px;
+    margin: 0
+}
+
+.tps.rvs .tpsAr,.tps.time .tpsAr {
+    background-position: -10px 0;
+    bottom: auto;
+    top: -4px
+}
+
+.ie7 .tps .tpsAr,.ie8 .tps .tpsAr {
+    bottom: -4px
+}
+
+.jingSltrCtn {
+    float: left
+}
+
+.jingSltrCtn .sltrHdr {
+    float: left;
+    width: 100%;
+    margin-bottom: 75px
+}
+
+.jingSltrCtn .sltrHdr .tit {
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+    font-weight: bold
+}
+
+.jingSltrCtn .sltrHdr .desc {
+    color: #444;
+    text-align: center
+}
+
+.jingSltrCtn .sltrIcons {
+    margin: 0 auto
+}
+
+.jingSltrCtn .sltrIcons .iconBg {
+    background: url(http://img.jing.fm/assets/jing-beta/sltrBg.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/sltrBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrBg@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/sltrBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrBg@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/sltrBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrBg@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/sltrBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrBg@2x.png") 2x);
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left;
+    position: relative;
+    text-align: center
+}
+
+.jingSltrCtn .sltrIcons .iconBg.selected,.jingSltrCtn .sltrIcons .iconBg:hover {
+    background-position: -150px 0
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon {
+    background: url(http://img.jing.fm/assets/jing-beta/sltrIcons.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/sltrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrIcons@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/sltrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrIcons@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/sltrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrIcons@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/sltrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/sltrIcons@2x.png") 2x);
+    width: 75px;
+    height: 75px;
+    display: block;
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -37.5px;
+    margin-top: -37.5px
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon.wb {
+    background-position: 0 0
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon.qq {
+    background-position: -75px 0
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon.db {
+    background-position: 0 -75px
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon.rr {
+    background-position: -150px 0
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon.oicq {
+    background-position: -75px -75px
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon.andrd {
+    background-position: -150px -75px
+}
+
+.jingSltrCtn .sltrIcons .iconBg .icon.ios {
+    background-position: 0 -150px
+}
+
+.jingSltrCtn .sltrIcons .iconBg .desc {
+    text-align: center;
+    width: 150px;
+    display: block;
+    margin-top: 160px;
+    color: #444;
+    font-weight: bold
+}
+
+.blckpCtn {
+    background: #2c2c2c;
+    border: 2px solid #fff\9;
+    border: 2px solid rgba(255,255,255,0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 340px;
+    float: left;
+    position: relative
+}
+
+.blckpCtn:after {
+    background: url(http://img.jing.fm/assets/jing-beta/blckpTail.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/blckpTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/blckpTail@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/blckpTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/blckpTail@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/blckpTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/blckpTail@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/blckpTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/blckpTail@2x.png") 2x);
+    position: absolute;
+    content: ""
+}
+
+.blckpCtn.abt:after {
+    left: -7px;
+    top: 20px;
+    width: 8px;
+    height: 12px;
+    background-position: 0 0
+}
+
+.blckpCtn .blckpHd .name {
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    margin: 20px 0 8px 20px
+}
+
+.blckpCtn .blckpHd .desc {
+    font-size: 11px;
+    color: #ccc;
+    margin-left: 20px
+}
+
+.blckpCtn .blckpHd .upldBtns {
+    position: absolute;
+    right: 18px;
+    top: 12px
+}
+
+.blckpCtn .blckpHd .upldBtns .upld,.blckpCtn .blckpHd .upldBtns .uploadify {
+    float: right;
+    height: 12px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #fff;
+    background: #62a946;
+    border: 1px solid #396229;
+    -webkit-box-shadow: inset 0 0 1px 0 rgba(190,242,170,0.75);
+    -moz-box-shadow: inset 0 0 1px 0 rgba(190,242,170,0.75);
+    box-shadow: inset 0 0 1px 0 rgba(190,242,170,0.75);
+    padding: 8px 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: 5px
+}
+
+.blckpCtn .blckpHd .upldBtns .uploadify {
+    width: 50px;
+    height: 12px
+}
+
+.blckpCtn .blckpHd .upldBtns .uploadify .uploadify-button .uploadify-button-text {
+    font-size: 11px
+}
+
+.blckpCtn .blckpHd .splt {
+    background: url(http://img.jing.fm/assets/jing-beta/splt.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    height: 2px
+}
+
+.blckpCtn .blckpBd {
+    padding: 16px 30px;
+    width: 280px;
+    float: left
+}
+
+.blckpCtn .blckpBd .avt {
+    float: left;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    position: relative
+}
+
+.blckpCtn .blckpBd .avt .avtCt {
+    position: absolute;
+    left: 10px;
+    width: 50px
+}
+
+.blckpCtn .blckpBd .avt .avtCt .avtMask {
+    border: 3px solid #fff;
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999
+}
+
+.blckpCtn .blckpBd .avt .avtCt .avtImg {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 0;
+    width: 50px;
+    position: absolute
+}
+
+.blckpCtn .blckpBd .avt .name {
+    position: absolute;
+    top: 55px;
+    color: #ccc;
+    font-size: 11px;
+    text-align: center;
+    width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.wlcm .authCtn {
+    background: url(http://img.jing.fm/assets/jing-beta/prtn.png) repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/prtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prtn@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/prtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prtn@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/prtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prtn@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/prtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prtn@2x.png") 2x);
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1001
+}
+
+.wlcm .authCtn .logoCtn {
+    float: left;
+    width: 300px;
+    height: 211px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -128px;
+    -webkit-transition: all .3s cubic-bezier(0.895,0.03,0.685,0.22);
+    -moz-transition: all .3s cubic-bezier(0.895,0.03,0.685,0.22);
+    -o-transition: all .3s cubic-bezier(0.895,0.03,0.685,0.22);
+    transition: all .3s cubic-bezier(0.895,0.03,0.685,0.22)
+}
+
+.wlcm .authCtn .logoCtn .logo,.wlcm .authCtn .logoCtn .slgn {
+    background: url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+.wlcm .authCtn .logoCtn .logo {
+    background-position: 0 0;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 32px
+}
+
+.wlcm .authCtn .logoCtn .slgn {
+    float: left;
+    margin: 0;
+    background-position: 0 -175px;
+    width: 300px;
+    height: 51px
+}
+
+.wlcm .authCtn .snsCtn {
+    width: 428px;
+    height: 33px;
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -214px;
+    margin-top: 5px
+}
+
+.wlcm .authCtn .snsCtn .name {
+    float: left;
+    background: url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll 0 -235px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    width: 168px;
+    height: 33px;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    margin: 10px 10px 0 -10px
+}
+
+.wlcm .authCtn .snsCtn .btn {
+    float: left;
+    width: 48px;
+    height: 48px;
+    background: url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -106px -270px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    margin: 0 20px 0 0;
+    color: #fff
+}
+
+.wlcm .authCtn .snsCtn .btn.wb {
+    background-position: -106px -270px
+}
+
+.wlcm .authCtn .snsCtn .btn.rr {
+    background-position: -250px -270px
+}
+
+.wlcm .authCtn .snsCtn .btn.qq {
+    background-position: -320px -270px;
+    margin-right: 0
+}
+
+.wlcm .authCtn .snsCtn .btn.oicq {
+    background-position: -179px -270px
+}
+
+.wlcm .authCtn .crdntlsCtn {
+    float: left;
+    width: 428px;
+    height: 51px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -214px;
+    margin-top: 75px
+}
+
+.wlcm .authCtn .crdntlsCtn .input {
+    width: 204px;
+    height: 51px;
+    background: #f9ffe5;
+    -webkit-box-shadow: inset 0 0 3px 0 rgba(44,77,30,0.75);
+    -moz-box-shadow: inset 0 0 3px 0 rgba(44,77,30,0.75);
+    box-shadow: inset 0 0 3px 0 rgba(44,77,30,0.75);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 0;
+    outline: none 0;
+    padding: 0 20px;
+    margin-right: 15px;
+    color: #a6ab97;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.wlcm .authCtn .crdntlsCtn .input:-moz-placeholder {
+    color: #a6ab97
+}
+
+.wlcm .authCtn .crdntlsCtn .input:-ms-input-placeholder {
+    color: #a6ab97
+}
+
+.wlcm .authCtn .crdntlsCtn .input::-webkit-input-placeholder {
+    color: #a6ab97
+}
+
+.wlcm .authCtn .crdntlsCtn .input.psswd {
+    margin-right: 0;
+    padding-right: 40px
+}
+
+.wlcm .authCtn .crdntlsCtn .sbmt {
+    background: url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -200px -60px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    top: 11px;
+    right: 11px
+}
+
+.wlcm .authCtn .rgstrCtn {
+    float: left;
+    background: #f9ffe5;
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -195px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: opacity .2s cubic-bezier(0.895,0.03,0.685,0.22);
+    -moz-transition: opacity .2s cubic-bezier(0.895,0.03,0.685,0.22);
+    -o-transition: opacity .2s cubic-bezier(0.895,0.03,0.685,0.22);
+    transition: opacity .2s cubic-bezier(0.895,0.03,0.685,0.22)
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrHd {
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #62a946
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrHd .name {
+    font-size: 18px;
+    text-align: center;
+    color: #444;
+    font-weight: bold;
+    margin: 25px 0 0
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrHd .desc {
+    font-size: 11px;
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 16px
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm {
+    position: relative;
+    width: 100%;
+    height: 0;
+    float: left;
+    margin-top: 16px;
+    overflow: hidden;
+    -webkit-transition: height .2s cubic-bezier(0.895,0.03,0.685,0.22);
+    -moz-transition: height .2s cubic-bezier(0.895,0.03,0.685,0.22);
+    -o-transition: height .2s cubic-bezier(0.895,0.03,0.685,0.22);
+    transition: height .2s cubic-bezier(0.895,0.03,0.685,0.22)
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .upldBtn {
+    width: 100px;
+    height: 40px;
+    padding-top: 60px;
+    background: #e2e7d2 url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -268px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    -webkit-box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.3);
+    font-size: 10px;
+    text-align: center;
+    color: #babfa9;
+    position: absolute;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    top: 0;
+    right: 25px;
+    z-index: 999
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .upldBtn.selected {
+    background: transparent;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .upldBtn.selected:hover {
+    background: rgba(226,231,210,0.9) url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -268px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    font: 10px/15px STHeiti,"微软雅黑","Microsoft Yahei",Arial,Helmet,Freesans,sans-serif;
+    color: #babfa9;
+    padding-top: 60px
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .avtImg {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .uploadify {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    padding-top: 60px;
+    display: block;
+    background: #e2e7d2 url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -268px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    -webkit-box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.3);
+    font-size: 10px;
+    text-align: center;
+    color: #babfa9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 999
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .uploadify.selected {
+    background: transparent
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .uploadify.selected .uploadify-button {
+    display: none
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .uploadify.selected:hover {
+    background: #e2e7d2 url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -268px 0;
+    background: rgba(226,231,210,0.9) url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll -268px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x)
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .uploadify.selected:hover .uploadify-button {
+    display: block
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap {
+    float: left;
+    width: 180px;
+    height: 49px;
+    border-bottom: 1px solid #dadfcb;
+    margin: 0 25px 0
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap.lng {
+    width: 308px
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap .input {
+    background: transparent;
+    border: 0;
+    outline: none 0;
+    padding: 0;
+    height: 49px;
+    width: 180px;
+    color: #babfa9
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap .input:-moz-placeholder {
+    color: #babfa9
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap .input:-ms-input-placeholder {
+    color: #babfa9
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap .input::-webkit-input-placeholder {
+    color: #babfa9
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap .slct {
+    line-height: 49px;
+    color: #babfa9;
+    padding-right: 70px;
+    float: left
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap .slct.fml {
+    padding-right: 0
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .wrap .slct.selected {
+    color: #62a946
+}
+
+.wlcm .authCtn .rgstrCtn .rgstrForm .btn {
+    width: 308px;
+    height: 49px;
+    background: #62a946;
+    border: 1px solid #4b8036;
+    -webkit-box-shadow: inset 0 0 3 0 rgba(252,252,252,0.75);
+    -moz-box-shadow: inset 0 0 3 0 rgba(252,252,252,0.75);
+    box-shadow: inset 0 0 3 0 rgba(252,252,252,0.75);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    float: left;
+    margin: 20px 25px 0;
+    color: #fff;
+    text-shadow: rgba(72,142,51,0.75) 0 1px 0;
+    text-shadow: none\9;
+    text-align: center;
+    line-height: 49px;
+    font-weight: bold
+}
+
+.wlcm .authCtn .btnCtn {
+    float: left;
+    width: 112px;
+    bottom: 48px;
+    position: absolute;
+    left: 50%;
+    margin-left: -56px
+}
+
+.wlcm .authCtn .btnCtn .auth {
+    background: url(http://img.jing.fm/assets/jing-beta/authSprt.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/authSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/authSprt@2x.png") 2x);
+    width: 48px;
+    height: 48px;
+    opacity: .8;
+    -moz-opacity: .8;
+    -webkit-transition: opacity .3 cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .3 cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .3 cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .3 cubic-bezier(0.075,0.82,0.165,1);
+    display: block;
+    float: left
+}
+
+.wlcm .authCtn .btnCtn .auth.lgn {
+    background-position: -140px -60px;
+    margin-right: 16px
+}
+
+.wlcm .authCtn .btnCtn .auth.lgn:hover {
+    opacity: 1;
+    -moz-opacity: 1
+}
+
+.wlcm .authCtn .btnCtn .auth.sgnp {
+    background-position: -200px 0
+}
+
+.wlcm .authCtn .btnCtn .auth.sgnp:hover {
+    opacity: 1;
+    -moz-opacity: 1
+}
+
+.ie7 .wlcm .authCtn .crdntlsCtn .input {
+    line-height: 51px;
+    width: 164px
+}
+
+.ie7 .wlcm .authCtn .crdntlsCtn .input,.ie8 .wlcm .authCtn .crdntlsCtn .input {
+    line-height: 51px
+}
+
+.ie7 .wlcm .authCtn .rgstrCtn .wrap .input,.ie8 .wlcm .authCtn .rgstrCtn .wrap .input {
+    line-height: 49px
+}
+
+.no-boxshadow .authCtn .rgstrCtn .rgstrForm .uploadify:after {
+    content: "";
+    background: url(http://img.jing.fm/assets/jing-beta/authSprt-ie.png) no-repeat scroll;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0
+}
+
+body .ijaBtn {
+    width: 55px;
+    height: 70px;
+    background: url(http://img.jing.fm/assets/jing-beta/ijaBtns.png) no-repeat scroll 1000px 1000px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    float: left;
+    position: relative
+}
+
+body .ijaBtn.fav {
+    background-position: 0 0
+}
+
+body .ijaBtn.jingRd {
+    background-position: -55px 0
+}
+
+body .ijaBtn.explr {
+    background-position: -110px 0
+}
+
+body .ijaBtn.tkrs {
+    background-position: -165px 0
+}
+
+body .ijaBtn.pplr {
+    background-position: -220px 0
+}
+
+body .ijaBtn.frds {
+    background-position: -275px 0
+}
+
+body .ijaBtn.home {
+    background-position: -385px 0
+}
+
+body .ijaBtn.charts {
+    background-position: 0 -70px
+}
+
+body .ijaBtn.hate {
+    background-position: -55px -70px
+}
+
+body .ijaBtn.gftd {
+    background-position: -110px -70px
+}
+
+body .ijaBtn.ntlg {
+    background-position: -165px -70px
+}
+
+body .ijaBtn.fltr {
+    background-position: -220px -70px
+}
+
+body .ijaBtn.top {
+    background-position: -330px -70px
+}
+
+body .ijaBtn.mbl {
+    background-position: -275px -70px
+}
+
+body .ijaBtn.stngs {
+    background-position: -330px 0
+}
+
+body .ijaBtn.more {
+    background-position: -385px -70px;
+    margin-right: 20px
+}
+
+body .ijaBtn.selected {
+    height: 65px;
+    border-bottom: 3px solid #62a946
+}
+
+body .ijaBtnFly {
+    width: 55px;
+    height: 70px;
+    background: url(http://img.jing.fm/assets/jing-beta/ijaBtns.png) no-repeat scroll 1000px 1000px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ijaBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/ijaBtns@2x.png") 2x);
+    float: left;
+    position: relative;
+    opacity: .5;
+    -moz-opacity: .5
+}
+
+body .ijaBtnFly.fav {
+    background-position: 0 0
+}
+
+body .ijaBtnFly.jingRd {
+    background-position: -55px 0
+}
+
+body .ijaBtnFly.explr {
+    background-position: -110px 0
+}
+
+body .ijaBtnFly.tkrs {
+    background-position: -165px 0
+}
+
+body .ijaBtnFly.pplr {
+    background-position: -220px 0
+}
+
+body .ijaBtnFly.frds {
+    background-position: -275px 0
+}
+
+body .ijaBtnFly.home {
+    background-position: -385px 0
+}
+
+body .ijaBtnFly.charts {
+    background-position: 0 -70px
+}
+
+body .ijaBtnFly.hate {
+    background-position: -55px -70px
+}
+
+body .ijaBtnFly.gftd {
+    background-position: -110px -70px
+}
+
+body .ijaBtnFly.ntlg {
+    background-position: -165px -70px
+}
+
+body .ijaBtnFly.fltr {
+    background-position: -220px -70px
+}
+
+body .ijaBtnFly.top {
+    background-position: -330px -70px
+}
+
+body .ijaBtnFly.mbl {
+    background-position: -275px -70px
+}
+
+body .ijaBtnFly.stngs {
+    background-position: -330px 0
+}
+
+body .ijaBtnFly.more {
+    background-position: -385px -70px;
+    margin-right: 20px
+}
+
+body .ijaBtnFly.fav {
+    background-position: 0 0
+}
+
+body .ijaBtnFly.jingRd {
+    background-position: -55px 0
+}
+
+body .ijaBtnFly.explr {
+    background-position: -110px 0
+}
+
+body .ijaBtnFly.tkrs {
+    background-position: -165px 0
+}
+
+body .ijaBtnFly.pplr {
+    background-position: -220px 0
+}
+
+body .ijaBtnFly.frds {
+    background-position: -275px 0
+}
+
+body .ijaBtnFly.home {
+    background-position: -385px 0
+}
+
+body .ijaBtnFly.charts {
+    background-position: 0 -70px
+}
+
+body .ijaBtnFly.hate {
+    background-position: -55px -70px
+}
+
+body .ijaBtnFly.gftd {
+    background-position: -110px -70px
+}
+
+body .ijaBtnFly.ntlg {
+    background-position: -165px -70px
+}
+
+body .ijaBtnFly.fltr {
+    background-position: -220px -70px
+}
+
+body .ijaBtnFly.top {
+    background-position: -330px -70px
+}
+
+body .ijaBtnFly.mbl {
+    background-position: -275px -70px
+}
+
+body .ijaBtnFly.stngs {
+    background-position: -330px 0
+}
+
+body .ijaBtnFly.more {
+    background-position: -385px -70px;
+    margin-right: 20px
+}
+
+body .ijaBtnFly.selected {
+    height: 65px;
+    border-bottom: 3px solid #62a946
+}
+
+body .btnsCtn {
+    position: absolute;
+    z-index: 1000;
+    background: url(http://img.jing.fm/assets/jing-beta/btnsCtn.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/btnsCtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/btnsCtn@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/btnsCtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/btnsCtn@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/btnsCtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/btnsCtn@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/btnsCtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/btnsCtn@2x.png") 2x);
+    width: 355px;
+    height: 339px
+}
+
+body .btnsCtn .btnsCtt .icon {
+    width: 114px;
+    height: 105px;
+    background: url(http://img.jing.fm/assets/jing-beta/icons.png) no-repeat scroll -228px -210px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/icons.png") 1x,url("http://img.jing.fm/assets/jing-beta/icons@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/icons.png") 1x,url("http://img.jing.fm/assets/jing-beta/icons@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/icons.png") 1x,url("http://img.jing.fm/assets/jing-beta/icons@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/icons.png") 1x,url("http://img.jing.fm/assets/jing-beta/icons@2x.png") 2x);
+    border-right: 1px solid #111;
+    border-bottom: 1px solid #414141;
+    border-left: 1px solid #414141;
+    border-top: 1px solid #111;
+    display: block;
+    float: left;
+    position: relative
+}
+
+body .btnsCtn .btnsCtt .icon .tit {
+    font-size: 11px;
+    color: #ccc;
+    font-weight: bold;
+    width: 114px;
+    text-align: center;
+    display: block;
+    padding-top: 75px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+body .btnsCtn .btnsCtt .icon.noTop {
+    border-top: 0
+}
+
+body .btnsCtn .btnsCtt .icon.noBtm {
+    border-bottom: 0
+}
+
+body .btnsCtn .btnsCtt .icon.noRght {
+    border-right: 0
+}
+
+body .btnsCtn .btnsCtt .icon.noLft {
+    border-left: none
+}
+
+body .btnsCtn .btnsCtt .icon.charts {
+    background-position: 0 -10px
+}
+
+body .btnsCtn .btnsCtt .icon.hate {
+    background-position: -114px -10px
+}
+
+body .btnsCtn .btnsCtt .icon.gftd {
+    background-position: -228px -10px
+}
+
+body .btnsCtn .btnsCtt .icon.pplr {
+    background-position: 0 -115px
+}
+
+body .btnsCtn .btnsCtt .icon.ntlg {
+    background-position: -114px -115px
+}
+
+body .btnsCtn .btnsCtt .icon.fltr {
+    background-position: -228px -115px
+}
+
+body .btnsCtn .btnsCtt .icon.top {
+    background-position: 0 -220px
+}
+
+body .btnsCtn .btnsCtt .icon.mbl {
+    background-position: -114px -220px
+}
+
+body .btnsCtn .btnsCtt .icon.home {
+    background-position: 0 -325px
+}
+
+body .btnsCtn .btnsCtt .icon.fav {
+    background-position: -114px -325px
+}
+
+body .btnsCtn .btnsCtt .icon.tkrs {
+    background-position: -228px -325px
+}
+
+body .btnsCtn .btnsCtt .icon.jingRd {
+    background-position: 0 -430px
+}
+
+body .btnsCtn .btnsCtt .icon.frds {
+    background-position: -114px -430px
+}
+
+body .btnsCtn .btnsCtt .icon.explr {
+    background-position: -228px -430px
+}
+
+body .btnsCtn .btnsCtt .icon.stngs {
+    background-position: -114px -535px
+}
+
+.tbCtn .jing {
+    background: url(http://img.jing.fm/assets/jing-beta/jing.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/jing.png") 1x,url("http://img.jing.fm/assets/jing-beta/jing@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/jing.png") 1x,url("http://img.jing.fm/assets/jing-beta/jing@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/jing.png") 1x,url("http://img.jing.fm/assets/jing-beta/jing@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/jing.png") 1x,url("http://img.jing.fm/assets/jing-beta/jing@2x.png") 2x);
+    width: 41px;
+    height: 27px;
+    display: block;
+    float: left;
+    margin: 21px 20px 0 17px
+}
+
+.tbCtn .splt {
+    width: 2px;
+    height: 70px;
+    float: left;
+    background: url(http://img.jing.fm/assets/jing-beta/menubarSplt.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/menubarSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/menubarSplt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/menubarSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/menubarSplt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/menubarSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/menubarSplt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/menubarSplt.png") 1x,url("http://img.jing.fm/assets/jing-beta/menubarSplt@2x.png") 2x)
+}
+
+.tbCtn .splt.srch {
+    float: right;
+    margin-right: 70px
+}
+
+.tbCtn .menuBtn {
+    width: 70px;
+    height: 70px;
+    float: left;
+    background: url(http://img.jing.fm/assets/jing-beta/menuBtns.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/menuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/menuBtns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/menuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/menuBtns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/menuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/menuBtns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/menuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/menuBtns@2x.png") 2x)
+}
+
+.tbCtn .menuBtn.lstn {
+    background-position: 0 0
+}
+
+.tbCtn .menuBtn.rmd {
+    background-position: -70px 0
+}
+
+.tbCtn .menuBtn.srch {
+    background-position: -140px 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.tbCtn .menuCtn {
+    float: left
+}
+
+.tbCtn .menuCtn .dscp {
+    line-height: 70px;
+    color: #bbb;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 30px 0 0;
+    text-shadow: 0 1px 1px #000;
+    text-shadow: none\9;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.tbCtn .menuCtn .dscp a {
+    color: #eee
+}
+
+.tbCtn .menuCtn .dscp span {
+    color: #fff
+}
+
+.tbCtn .schCtn {
+    position: absolute;
+    right: 0;
+    height: 71px;
+    width: 23px
+}
+
+.tbCtn .schCtn .schBxCtn {
+    position: absolute;
+    right: 11px;
+    top: 15px;
+    width: 100%;
+    padding-right: 25px
+}
+
+.tbCtn .schCtn .schBxCtn .schFld {
+    height: 38px;
+    border: 1px solid #000;
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.75);
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.75);
+    background: #eee;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+    outline: none 0;
+    line-height: 12px;
+    font-size: 12px;
+    color: #bbb;
+    padding-left: 20px
+}
+
+.ie7 .tbCtn .schCtn .schBxCtn .schFld,.ie8 .tbCtn .schCtn .schBxCtn .schFld {
+    line-height: 38px
+}
+
+.no-borderradius .mdCtn .mscPlrCtn {
+    height: 430px
+}
+
+.no-borderradius .mdCtn .mscPlrCtn .mscPlrMask {
+    background: url(http://img.jing.fm/assets/jing-beta/playerMask.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/playerMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerMask@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/playerMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerMask@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/playerMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerMask@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/playerMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerMask@2x.png") 2x);
+    width: 430px;
+    height: 430px;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-left: -215px;
+    margin-top: -60px
+}
+
+.no-borderradius .mdCtn .mscPlrCtn .mscPlr .cv {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -210px
+}
+
+.no-borderradius .mdCtn .mscPlrCtn .mscPlr .tit {
+    padding-top: 300px
+}
+
+.no-borderradius .mdCtn .mscPlrCtn .mscPlrBtnCtn {
+    height: 430px;
+    top: -64px
+}
+
+.mdCtn .mscPlrCtn {
+    width: 100%;
+    height: 304px;
+    position: absolute;
+    top: 50%;
+    margin-top: -220px;
+    z-index: 1002
+}
+
+.mdCtn .mscPlrCtn .mscPlrMask {
+    z-index: 1000;
+    width: 294px;
+    height: 294px;
+    border: 5px solid rgba(255,255,255,0.9);
+    -webkit-border-radius: 294px;
+    -moz-border-radius: 294px;
+    border-radius: 294px;
+    top: -1px;
+    position: absolute;
+    left: 50%;
+    margin-left: -152px
+}
+
+.mdCtn .mscPlrCtn .mscPlrMask .playCtlCtn,.mdCtn .mscPlrCtn .mscPlrMask .playCtl {
+    background: url(http://img.jing.fm/assets/jing-beta/playCtl.png) no-repeat scroll -200px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/playCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/playCtl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/playCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/playCtl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/playCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/playCtl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/playCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/playCtl@2x.png") 2x);
+    width: 69px;
+    height: 69px;
+    position: absolute
+}
+
+.mdCtn .mscPlrCtn .mscPlrMask .playCtlCtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -34.5px;
+    margin-top: -34.5px;
+    z-index: 1000;
+    -webkit-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1)
+}
+
+.mdCtn .mscPlrCtn .mscPlrMask .playCtlCtn .playCtl {
+    top: 0;
+    left: 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrMask .playCtlCtn.play .playCtl {
+    background-position: 0 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrMask .playCtlCtn.pause .playCtl {
+    background-position: -100px 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrMask .playCtlCtn.loading .playCtl {
+    background: transparent
+}
+
+.mdCtn .mscPlrCtn .mscPlr {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px
+}
+
+.mdCtn .mscPlrCtn .mscPlr:hover .playCtlCtn {
+    -webkit-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1)
+}
+
+.mdCtn .mscPlrCtn .mscPlr .cv {
+    background: #e1e1e1 url(http://img.jing.fm/assets/jing-beta/defaults/cover/300.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/defaults/cover/300.png") 1x,url("http://img.jing.fm/assets/jing-beta/defaults/cover/300@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/defaults/cover/300.png") 1x,url("http://img.jing.fm/assets/jing-beta/defaults/cover/300@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/defaults/cover/300.png") 1x,url("http://img.jing.fm/assets/jing-beta/defaults/cover/300@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/defaults/cover/300.png") 1x,url("http://img.jing.fm/assets/jing-beta/defaults/cover/300@2x.png") 2x);
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    border-radius: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    -webkit-box-shadow: 0 0 5px 3px rgba(183,173,160,0.5);
+    -moz-box-shadow: 0 0 5px 3px rgba(183,173,160,0.5);
+    box-shadow: 0 0 5px 3px rgba(183,173,160,0.5)
+}
+
+.mdCtn .mscPlrCtn .mscPlr .tit {
+    padding-top: 360px;
+    width: 100%;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #fefefe;
+    text-shadow: none\9
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn {
+    height: 300px;
+    position: relative;
+    width: 40%;
+    margin: -8px auto 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .plrBtn,.mdCtn .mscPlrCtn .mscPlrBtnCtn .plrBtnBg {
+    background: url(http://img.jing.fm/assets/jing-beta/playerIcons.png) no-repeat scroll 50% 50%;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/playerIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerIcons@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/playerIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerIcons@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/playerIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerIcons@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/playerIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/playerIcons@2x.png") 2x);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: block
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .plrBtnBg {
+    background-position: -400px -100px;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 2
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .hate {
+    left: -24%
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .hate .plrBtn {
+    background-position: -300px -100px;
+    -webkit-animation-name: antiRotate;
+    -moz-animation-name: antiRotate;
+    -ms-animation-name: antiRotate;
+    -o-animation-name: antiRotate;
+    animation-name: antiRotate;
+    -webkit-animation-duration: 4.5s;
+    -moz-animation-duration: 4.5s;
+    -ms-animation-duration: 4.5s;
+    -o-animation-duration: 4.5s;
+    animation-duration: 4.5s
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .hate .plrBtn:hover {
+    background-position: -300px 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .love {
+    left: -60%
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .love .plrBtn {
+    background-position: 0 -100px;
+    -webkit-animation-duration: 2.5s;
+    -moz-animation-duration: 2.5s;
+    -ms-animation-duration: 2.5s;
+    -o-animation-duration: 2.5s;
+    animation-duration: 2.5s
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .love .plrBtn:hover {
+    background-position: 0 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .love .plrBtn.selected,.mdCtn .mscPlrCtn .mscPlrBtnCtn .love .plrBtn.selected:hover {
+    background-position: -400px 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .rptOne {
+    right: -24%
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .rptOne .plrBtn {
+    background-position: -100px -100px;
+    -webkit-animation-duration: 10.2s;
+    -moz-animation-duration: 10.2s;
+    -ms-animation-duration: 10.2s;
+    -o-animation-duration: 10.2s;
+    animation-duration: 10.2s
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .rptOne .plrBtn:hover,.mdCtn .mscPlrCtn .mscPlrBtnCtn .rptOne .plrBtn.selected {
+    background-position: -100px 0
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .next {
+    right: -60%
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .next .plrBtn {
+    background-position: -200px -100px;
+    -webkit-animation-name: halfRotate;
+    -moz-animation-name: halfRotate;
+    -ms-animation-name: halfRotate;
+    -o-animation-name: halfRotate;
+    animation-name: halfRotate;
+    -webkit-animation-duration: 8.5s;
+    -moz-animation-duration: 8.5s;
+    -ms-animation-duration: 8.5s;
+    -o-animation-duration: 8.5s;
+    animation-duration: 8.5s
+}
+
+.mdCtn .mscPlrCtn .mscPlrBtnCtn .next .plrBtn:hover {
+    background-position: -200px 0
+}
+
+.mdCtn .mdlHr {
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    width: 100%;
+    background: #e4e4e4;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.mdCtn .prgrsCtn {
+    width: 100%;
+    position: absolute;
+    z-index: 1003
+}
+
+.mdCtn .prgrsCtn .prgrs {
+    width: 100%;
+    background: #d1d1d1;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0
+}
+
+.mdCtn .prgrsCtn .prgrs.crt {
+    background: #555;
+    width: 0;
+    font-size: 0
+}
+
+.plusOne {
+    position: absolute;
+    z-index: 9999;
+    width: 14px;
+    height: 14px
+}
+
+.retina .mdCtn .mdlHr {
+    border: 0;
+    background: transparent url(http://img.jing.fm/assets/jing-beta/mdlHr.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 1x,url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 1x,url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 1x,url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 1x,url("http://img.jing.fm/assets/jing-beta/mdlHr.png") 2x)
+}
+
+.rt {
+    -webkit-animation: rotate 9.5s infinite linear;
+    -moz-animation: rotate 9.5s infinite linear;
+    -ms-animation: rotate 9.5s infinite linear;
+    -o-animation: rotate 9.5s infinite linear;
+    animation: rotate 9.5s infinite linear;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running
+}
+
+.stRt {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused
+}
+
+.lwRt {
+    -webkit-animation-name: rotate;
+    -moz-animation-name: rotate;
+    -ms-animation-name: rotate;
+    -o-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -ms-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running
+}
+
+.lwRt:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused
+}
+
+.fsapp {
+    overflow: hidden
+}
+
+.fsapp.fav,.fsapp.hate {
+    background: #eee
+}
+
+.fsapp.fav .empty,.fsapp.hate .empty {
+    left: 50%;
+    right: auto;
+    margin-left: -64.5px
+}
+
+.fsapp .fav,.fsapp .hates {
+    float: left
+}
+
+.fsapp .fav .rndSqrCtn .tit,.fsapp .hates .rndSqrCtn .tit {
+    cursor: pointer
+}
+
+.fsapp .fav .rndSqrCtn .rndSqr .btn,.fsapp .hates .rndSqrCtn .rndSqr .btn {
+    background: url(http://img.jing.fm/assets/jing-beta/loveHateBtn.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 12px
+}
+
+.fsapp .fav .rndSqrCtn .rndSqr .btn.love,.fsapp .hates .rndSqrCtn .rndSqr .btn.love {
+    background-position: 0 -50px
+}
+
+.fsapp .fav .rndSqrCtn .rndSqr .btn.love.selected,.fsapp .hates .rndSqrCtn .rndSqr .btn.love.selected {
+    background-position: 0 0
+}
+
+.fsapp .fav .rndSqrCtn .rndSqr .btn.hate,.fsapp .hates .rndSqrCtn .rndSqr .btn.hate {
+    background-position: -43px -50px
+}
+
+.fsapp .fav .rndSqrCtn .rndSqr .btn.hate.selected,.fsapp .hates .rndSqrCtn .rndSqr .btn.hate.selected {
+    background-position: -43px 0
+}
+
+.fsapp .fav .rndSqrCtn .rndSqr.stats,.fsapp .hates .rndSqrCtn .rndSqr.stats {
+    background: #62a946;
+    background-image: none
+}
+
+.instSchCtn .instSchCttCtn .tipCtn {
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative
+}
+
+.instSchCtn .instSchCttCtn .tipCtn .tipCtt {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px
+}
+
+.instSchCtn .instSchCttCtn .tipCtn .tipCtt .tipMask {
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    background: url(http://img.jing.fm/assets/jing-beta/tipMask.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/tipMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/tipMask@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/tipMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/tipMask@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/tipMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/tipMask@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/tipMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/tipMask@2x.png") 2x);
+    top: -1px;
+    left: -1px
+}
+
+.instSchCtn .instSchCttCtn .tipCtn .tipCtt .tipPht {
+    width: 100px;
+    height: 100px
+}
+
+.instSchCtn .instSchCttCtn .tipCtn .tipCtt .name {
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    bottom: -60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.instSchCtn .instSchChng {
+    position: absolute;
+    color: #555;
+    font-size: 11px;
+    font-weight: bold;
+    border-bottom: 2px solid #555;
+    padding: 0 5px 10px
+}
+
+.ntlgInstCtn {
+    background: url(http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt.png) repeat-y scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBgRpt@2x.png") 2x);
+    width: 340px;
+    float: left;
+    position: absolute;
+    z-index: 1001;
+    bottom: 70px
+}
+
+.ntlgInstCtn:before,.ntlgInstCtn:after {
+    background: url(http://img.jing.fm/assets/jing-beta/ntlgInstBg.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBg@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBg@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBg@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgInstBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgInstBg@2x.png") 2x);
+    width: 340px;
+    content: "";
+    height: 12px;
+    position: absolute;
+    top: -12px;
+    left: 0
+}
+
+.ntlgInstCtn:after {
+    height: 15px;
+    background-position: 0 -12px;
+    top: auto;
+    bottom: -15px
+}
+
+.ntlgInstCtn .ntlg {
+    color: #ccc;
+    font-size: 11px;
+    font-weight: bold;
+    height: 49px;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 49px;
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer
+}
+
+.ntlgInstCtn .ntlg.more {
+    text-align: center
+}
+
+.ntlgInstCtn .splt {
+    width: 336px;
+    margin-left: 2px;
+    background: url(http://img.jing.fm/assets/jing-beta/splt.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    height: 1px;
+    display: block;
+    float: left
+}
+
+.ufo {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 0 3px 0 rgba(102,102,102,0.75);
+    -moz-box-shadow: 0 0 3px 0 rgba(102,102,102,0.75);
+    box-shadow: 0 0 3px 0 rgba(102,102,102,0.75);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    background-size: 50px 50px
+}
+
+.temp-tip {
+    height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    visibility: hidden
+}
+
+.tstCtn {
+    background: #2c2c2c;
+    background: rgba(44,44,44,0.98);
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 84px;
+    z-index: 9999;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.tstCtn .tstInShdw {
+    height: 40px;
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.1);
+    -moz-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.1);
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.1);
+    color: #999;
+    padding: 0 20px;
+    line-height: 40px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    text-shadow: none\9;
+    font-weight: bold
+}
+
+.tstCtn .tstInShdw a {
+    color: #62a946
+}
+
+.jingRdCtn {
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -40%;
+    margin-top: -32%;
+    padding: 25px;
+    border: 5px solid #d4d4d4;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 15px #000 inset;
+    -moz-box-shadow: 0 0 15px #000 inset;
+    box-shadow: 0 0 15px #000 inset
+}
+
+.jingRdCtn .veil {
+    width: 100%;
+    height: 100%;
+    background: url(http://img.jing.fm/assets/jing-beta/radioVeilDot.png) repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/radioVeilDot.png") 1x,url("http://img.jing.fm/assets/jing-beta/radioVeilDot@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/radioVeilDot.png") 1x,url("http://img.jing.fm/assets/jing-beta/radioVeilDot@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/radioVeilDot.png") 1x,url("http://img.jing.fm/assets/jing-beta/radioVeilDot@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/radioVeilDot.png") 1x,url("http://img.jing.fm/assets/jing-beta/radioVeilDot@2x.png") 2x);
+    position: relative
+}
+
+.jingRdCtn .veil .led {
+    width: 40%;
+    height: 111px;
+    background: url(http://img.jing.fm/assets/jing-beta/ledBg.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ledBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledBg@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ledBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledBg@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ledBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledBg@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ledBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledBg@2x.png") 2x);
+    position: absolute;
+    top: 20%;
+    left: 0
+}
+
+.jingRdCtn .veil .led .ledRght {
+    width: 12px;
+    height: 111px;
+    background: url(http://img.jing.fm/assets/jing-beta/ledRght.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ledRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledRght@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ledRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledRght@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ledRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledRght@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ledRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ledRght@2x.png") 2x);
+    position: absolute;
+    right: -12px
+}
+
+.jingRdCtn .veil .led .tit {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #6f7265;
+    margin: 35px 15px 10px;
+    min-width: 228px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.jingRdCtn .veil .led .desc {
+    font-size: 11px;
+    font-weight: bold;
+    color: #acb788;
+    margin: 5px 15px 10px
+}
+
+.jingRdCtn .veil .plyCtrl {
+    width: 203px;
+    height: 86px;
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    background: url(http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtlBg@2x.png") 2x)
+}
+
+.jingRdCtn .veil .plyCtrl .play,.jingRdCtn .veil .plyCtrl .love,.jingRdCtn .veil .plyCtrl .next,.jingRdCtn .veil .plyCtrl .pause {
+    background: url(http://img.jing.fm/assets/jing-beta/jingRdPlayCtl.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/jingRdPlayCtl@2x.png") 2x);
+    width: 64px;
+    height: 86px;
+    display: block;
+    float: left;
+    margin-top: 1px
+}
+
+.jingRdCtn .veil .plyCtrl .play {
+    background-position: -70px 0;
+    margin-left: 7px
+}
+
+.jingRdCtn .veil .plyCtrl .pause {
+    background-position: -70px -86px;
+    margin-left: 7px
+}
+
+.jingRdCtn .veil .plyCtrl .love {
+    background-position: 0 0
+}
+
+.jingRdCtn .veil .plyCtrl .love.selected {
+    background-position: 0 -86px
+}
+
+.jingRdCtn .veil .plyCtrl .next {
+    background-position: -139px 0;
+    margin-left: 4px
+}
+
+.tkrs {
+    float: left
+}
+
+.tkrs .rndSqrCtn .rndSqr .usrAvt {
+    background: rgba(0,0,0,0.8);
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    height: 36px;
+    margin: 11px 0 0 13px;
+    width: 36px;
+    min-width: 36px;
+    width: auto;
+    max-width: 200px;
+    float: left;
+    position: relative;
+    overflow: hidden
+}
+
+.tkrs .rndSqrCtn .rndSqr .usrAvt p {
+    position: absolute;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 11px;
+    padding-right: 14px;
+    font-weight: bold;
+    line-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+    max-width: 140px
+}
+
+.tkrs .rndSqrCtn .rndSqr .usrAvt .usrAvtImg {
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin: 3px 0 0 3px;
+    float: left
+}
+
+.fsapp.charts {
+    background: #eee
+}
+
+.fsapp .charts {
+    float: left
+}
+
+.fsapp .charts .chartCtn {
+    background: #ccc;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+    margin-right: 36px;
+    margin-bottom: 36px;
+    float: left;
+    display: block
+}
+
+.fsapp .charts .chartCtn .chartImg {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.fsapp .charts .chartDtl {
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    border-left: 1.5px solid #ddd;
+    padding-left: 70px
+}
+
+.fsapp .charts .chartDtl .year {
+    font-size: 24px;
+    background: #eee;
+    color: #444;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    margin: 0;
+    padding: 20px 10px;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    left: -36px
+}
+
+.fsapp .charts .chartDtl .rctCtnCol {
+    border: 1px solid #e1e1e1;
+    float: left;
+    width: 324px;
+    margin-right: 40px
+}
+
+.fsapp .charts .chartDtl .rctCtn {
+    float: left;
+    width: 324px;
+    height: 75px;
+    background: #fff;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    display: block
+}
+
+.fsapp .charts .chartDtl .rctCtn.odd {
+    background: #f3f3f3;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff
+}
+
+.fsapp .charts .chartDtl .rctCtn:first-child {
+    border-top: 0
+}
+
+.fsapp .charts .chartDtl .rctCtn:last-child {
+    border-bottom: 0
+}
+
+.fsapp .charts .chartDtl .rctCtn .issCv {
+    width: 75px;
+    height: 75px;
+    float: left;
+    background-size: 75px;
+    background: #f8f8f8
+}
+
+.fsapp .charts .chartDtl .rctCtn .issCv .plyCtl {
+    width: 75px;
+    height: 75px;
+    background: url(http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png) no-repeat scroll -50px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    opacity: 0;
+    -moz-opacity: 0;
+    -webkit-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1)
+}
+
+.fsapp .charts .chartDtl .rctCtn .issCv .plyCtl:hover,.fsapp .charts .chartDtl .rctCtn .issCv .plyCtl.selected {
+    opacity: 1;
+    -moz-opacity: 1
+}
+
+.fsapp .charts .chartDtl .rctCtn .issCtn {
+    float: left;
+    height: 75px;
+    margin-left: 15px;
+    width: 233px
+}
+
+.fsapp .charts .chartDtl .rctCtn .issCtn .iss {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #444;
+    margin-top: 18px;
+    margin-bottom: 8px
+}
+
+.fsapp .charts .chartDtl .rctCtn .issCtn .topTrck {
+    color: #999;
+    margin: 0;
+    line-height: 16px;
+    width: auto;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.fsapp.ntlg {
+    background: #eee
+}
+
+.fsapp .ntlg {
+    float: left
+}
+
+.fsapp .ntlg .ntlgCol {
+    float: left;
+    margin-right: 50px
+}
+
+.fsapp .ntlg .ntlgEmpt {
+    float: left
+}
+
+.fsapp .ntlg .ntlgCtn {
+    background: url(http://img.jing.fm/assets/jing-beta/ntlgBg.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgBg@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgBg@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgBg@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgBg@2x.png") 2x);
+    height: 50px;
+    position: relative;
+    float: left;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+    display: block
+}
+
+.fsapp .ntlg .ntlgCtn .ntlgRght {
+    background: url(http://img.jing.fm/assets/jing-beta/ntlgRght.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgRght@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgRght@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgRght@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/ntlgRght.png") 1x,url("http://img.jing.fm/assets/jing-beta/ntlgRght@2x.png") 2x);
+    width: 5px;
+    height: 50px;
+    position: absolute;
+    right: -5px
+}
+
+.fsapp .ntlg .ntlgCtn .desc {
+    color: #999;
+    line-height: 50px;
+    padding: 0 60px
+}
+
+.fsapp.pplr {
+    background: #eee
+}
+
+.fsapp .pplr {
+    float: left
+}
+
+.fsapp .pplr .rndSqrCtn .n,.fsapp .pplr .rndSqrCtn .an {
+    margin-left: 12px
+}
+
+.fsapp .pplr .rndSqrCtn .n {
+    bottom: 36px;
+    font-weight: bold
+}
+
+.fsapp .pplr .rndSqrCtn .an {
+    bottom: 18px
+}
+
+.fsapp.abt {
+    background: #eee
+}
+
+.fsapp .abt {
+    float: left
+}
+
+.fsapp .abt .prflBg {
+    position: relative;
+    z-index: 999;
+    margin-top: -72px
+}
+
+.fsapp .abt .prflBg .prflCv {
+    position: absolute;
+    border: 0;
+    z-index: 999;
+    opacity: .75;
+    -moz-opacity: .75
+}
+
+.fsapp .abt .rndSqrCtn {
+    z-index: 1001
+}
+
+.fsapp .abt .prflPtrn {
+    background: url(http://img.jing.fm/assets/jing-beta/prflPtrn.png) repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/prflPtrn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflPtrn@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/prflPtrn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflPtrn@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/prflPtrn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflPtrn@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/prflPtrn.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflPtrn@2x.png") 2x);
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    margin-top: -72px
+}
+
+.fsapp .abt .prflCtt {
+    position: relative;
+    z-index: 1001;
+    float: left;
+    margin-left: 40px
+}
+
+.fsapp .abt .prflCtt .avt {
+    border: 3px solid #fff;
+    -webkit-box-shadow: 3px 0 4px 0 rgba(0,0,0,0.16);
+    -moz-box-shadow: 3px 0 4px 0 rgba(0,0,0,0.16);
+    box-shadow: 3px 0 4px 0 rgba(0,0,0,0.16);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    float: left;
+    margin: 0 14px 25px 0;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    overflow: hidden
+}
+
+.fsapp .abt .prflCtt .avt img {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+
+.fsapp .abt .prflCtt .avt .btn {
+    background: #62a946 url(http://img.jing.fm/assets/jing-beta/upld.png) no-repeat scroll center center;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/upld.png") 1x,url("http://img.jing.fm/assets/jing-beta/upld@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/upld.png") 1x,url("http://img.jing.fm/assets/jing-beta/upld@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/upld.png") 1x,url("http://img.jing.fm/assets/jing-beta/upld@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/upld.png") 1x,url("http://img.jing.fm/assets/jing-beta/upld@2x.png") 2x);
+    opacity: 0;
+    -moz-opacity: 0;
+    -webkit-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.fsapp .abt .prflCtt .avt .btn:hover {
+    opacity: .9;
+    -moz-opacity: .9
+}
+
+.fsapp .abt .prflCtt .avt .plyCtl {
+    width: 75px;
+    height: 75px;
+    background: url(http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png) no-repeat scroll -50px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    opacity: 0;
+    -moz-opacity: 0;
+    -webkit-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .2s cubic-bezier(0.075,0.82,0.165,1);
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.fsapp .abt .prflCtt .avt .plyCtl:hover,.fsapp .abt .prflCtt .avt .plyCtl.selected {
+    opacity: 1;
+    -moz-opacity: 1
+}
+
+.fsapp .abt .prflCtt .prflHdr {
+    float: left;
+    width: 60%
+}
+
+.fsapp .abt .prflCtt .prflHdr .name {
+    float: left;
+    color: #2c2c2c;
+    font-size: 24px;
+    line-height: 30px;
+    width: 95%;
+    height: 30px;
+    margin: 20px 0 14px 0;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.fsapp .abt .prflCtt .prflHdr .name span {
+    margin-right: 14px
+}
+
+.fsapp .abt .prflCtt .prflHdr .name .flw {
+    background: #64aa48;
+    -webkit-box-shadow: inset 0 0 1px 0 rgba(190,242,170,0.75);
+    -moz-box-shadow: inset 0 0 1px 0 rgba(190,242,170,0.75);
+    box-shadow: inset 0 0 1px 0 rgba(190,242,170,0.75);
+    border: 1px solid #396229;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 12px;
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    top: 2px
+}
+
+.fsapp .abt .prflCtt .prflHdr .name .flw.unflw {
+    background: #ececec;
+    border-color: #d6d6d6;
+    -webkit-box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.75);
+    -moz-box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.75);
+    box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.75);
+    color: #aaa
+}
+
+.fsapp .abt .prflCtt .prflHdr .name .edit {
+    border: 1px dashed #999;
+    outline: none 0;
+    position: absolute;
+    color: #222;
+    background: transparent;
+    font-size: 28px;
+    line-height: 30px;
+    width: 200px
+}
+
+.fsapp .abt .prflCtt .prflHdr .lstTs {
+    float: left;
+    color: #2c2c2c;
+    font-size: 11px;
+    width: 320px;
+    margin: 0
+}
+
+.fsapp .abt .prflCtt .sclntwk {
+    float: left;
+    width: 60%;
+    margin: 18px 0;
+    height: 20px
+}
+
+.fsapp .abt .prflCtt .sclntwk .sns {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    background: url(http://img.jing.fm/assets/jing-beta/prflSns.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/prflSns.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflSns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/prflSns.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflSns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/prflSns.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflSns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/prflSns.png") 1x,url("http://img.jing.fm/assets/jing-beta/prflSns@2x.png") 2x)
+}
+
+.fsapp .abt .prflCtt .sclntwk .sns.wb {
+    background-position: 0 0
+}
+
+.fsapp .abt .prflCtt .sclntwk .sns.rr {
+    background-position: -20px 0
+}
+
+.fsapp .abt .prflCtt .sclntwk .sns.qq {
+    background-position: -40px 0
+}
+
+.fsapp .abt .prflCtt .sclntwk .sns.db {
+    background-position: 0 -20px
+}
+
+.fsapp .abt .prflCtt .sclntwk .sns.oicq {
+    background-position: -20px -20px
+}
+
+.fsapp .abt .prflCtt .bio {
+    float: left;
+    font-size: 12px;
+    color: #555;
+    width: 70%;
+    line-height: 15px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5)
+}
+
+.fsapp .abt .prflCtt .bio p {
+    margin-bottom: 5px
+}
+
+.fsapp .abt .prflCtt .bio p .edit {
+    width: 80%;
+    height: 120px;
+    background: transparent;
+    border: 1px dashed #999;
+    outline: 0;
+    padding: 10px;
+    font-size: 12px;
+    resize: none;
+    overflow: auto;
+    color: #222;
+    line-height: 16px
+}
+
+.fsapp .abt .prflCtt .stats {
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    bottom: 50px;
+    float: left
+}
+
+.fsapp .abt .prflCtt .stats .statsCtn {
+    float: left;
+    font-size: 26px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #2c2c2c;
+    width: 125px;
+    height: 55px;
+    text-align: center;
+    line-height: 36px;
+    border-left: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f
+}
+
+.fsapp .abt .prflCtt .stats .statsCtn:first-child {
+    border-left: none
+}
+
+.fsapp .abt .prflCtt .stats .statsCtn p {
+    color: #333;
+    font-size: 11px;
+    font-family: STHeiti,"微软雅黑","Microsoft Yahei",Arial,Helmet,Freesans,sans-serif
+}
+
+.fsapp.frds {
+    background: #eee
+}
+
+.fsapp .frds {
+    float: left
+}
+
+.fsapp .frds .frdsMenu {
+    width: 70px;
+    float: left;
+    margin-right: 30px
+}
+
+.fsapp .frds .frdsMenu .menu {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: #444 url(http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative
+}
+
+.fsapp .frds .frdsMenu .menu .name {
+    display: none;
+    color: #eee;
+    line-height: 70px;
+    text-align: center;
+    width: 70px
+}
+
+.fsapp .frds .frdsMenu .menu:hover {
+    background-color: #62a946;
+    background-image: none
+}
+
+.fsapp .frds .frdsMenu .menu:hover .name {
+    display: block
+}
+
+.fsapp .frds .frdsMenu .menu.selected {
+    background-color: #62a946
+}
+
+.fsapp .frds .frdsMenu .menu.selected:hover {
+    background-color: #62a946
+}
+
+.fsapp .frds .frdsMenu .menu.selected:hover .name {
+    display: block
+}
+
+.fsapp .frds .frdsMenu .menu.selected .name {
+    display: none
+}
+
+.fsapp .frds .frdsMenu .menu.frds {
+    background-position: 0 0
+}
+
+.fsapp .frds .frdsMenu .menu.frdsRcmd {
+    background-position: -70px 0
+}
+
+.fsapp .frds .frdsMenu .menu.sns {
+    background-position: -140px 0
+}
+
+.fsapp .frds .frdsMenu .menu.extFrds {
+    background-position: 0 -70px
+}
+
+.fsapp .frds .frdsMenu .menu.srch {
+    background-position: -70px -70px
+}
+
+.fsapp .frds .frdsMenu .menu.wb {
+    background-position: -140px -70px
+}
+
+.fsapp .frds .frdsMenu .menu.qq {
+    background-position: 0 -140px
+}
+
+.fsapp .frds .frdsMenu .menu.db {
+    background-position: -70px -140px
+}
+
+.fsapp .frds .frdsMenu .menu.rr {
+    background-position: -140px -140px
+}
+
+.fsapp .frds .frdsMenu .menu.addSNS {
+    background-position: 0 -210px
+}
+
+.fsapp .frds .frdsMenu .menu.ntff {
+    background-position: -140px -210px
+}
+
+.fsapp .frds .frdsList {
+    float: left
+}
+
+.fsapp .frds .frdsList .frdsCol {
+    float: left;
+    width: 360px;
+    margin-right: 20px
+}
+
+.fsapp .frds .frdsList .frdsCtn {
+    width: 360px;
+    height: 70px;
+    background: #fff;
+    float: left;
+    margin-bottom: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px
+}
+
+.fsapp .frds .frdsList .frdsCtn .avt {
+    float: left;
+    margin: 10px 10px 0 20px;
+    position: relative;
+    width: 50px;
+    height: 50px
+}
+
+.fsapp .frds .frdsList .frdsCtn .avt .avtMask {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    z-index: 999
+}
+
+.fsapp .frds .frdsList .frdsCtn .avt .avtImgCtn {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #e1e1e1
+}
+
+.fsapp .frds .frdsList .frdsCtn .avt .avtImgCtn .avtImg {
+    width: 50px
+}
+
+.fsapp .frds .frdsList .frdsCtn .frdsCtt {
+    margin-top: 14px;
+    float: left;
+    width: auto;
+    max-width: 180px;
+    position: relative
+}
+
+.fsapp .frds .frdsList .frdsCtn .frdsCtt .name {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 4px
+}
+
+.fsapp .frds .frdsList .frdsCtn .frdsCtt .name span {
+    position: relative
+}
+
+.fsapp .frds .frdsList .frdsCtn .frdsCtt .name span .onl {
+    width: 20px;
+    height: 20px;
+    background: url(http://img.jing.fm/assets/jing-beta/frdOnl.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/frdOnl.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdOnl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/frdOnl.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdOnl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/frdOnl.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdOnl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/frdOnl.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdOnl@2x.png") 2x);
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: absolute;
+    right: -25px;
+    top: -1px
+}
+
+.fsapp .frds .frdsList .frdsCtn .frdsCtt .lstTs,.fsapp .frds .frdsList .frdsCtn .frdsCtt .desc {
+    color: #999;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0
+}
+
+.fsapp .frds .frdsList .frdsCtn .frdsBtn {
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    position: relative
+}
+
+.fsapp .frds .frdsList .frdsCtn .frdsBtn .flwLst,.fsapp .frds .frdsList .frdsCtn .frdsBtn .chat,.fsapp .frds .frdsList .frdsCtn .frdsBtn .poke {
+    float: right
+}
+
+.fsapp .frds .frdsList .frdsSrchCtn {
+    width: 360px;
+    height: 70px;
+    background: #fff;
+    float: left;
+    margin-bottom: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position: relative
+}
+
+.fsapp .frds .frdsList .frdsSrchCtn .frdsSrchFld {
+    width: 314px;
+    font-size: 15px;
+    background: #f1f1f1;
+    -webkit-box-shadow: 0 0 2px 0 inset rgba(0,0,0,0.02);
+    -moz-box-shadow: 0 0 2px 0 inset rgba(0,0,0,0.02);
+    box-shadow: 0 0 2px 0 inset rgba(0,0,0,0.02);
+    height: 60px;
+    margin: 5px 0 0 5px;
+    border: 0;
+    outline: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 18px
+}
+
+.fsapp .frds .frdsList .frdsSrchCtn .frdsSrchBtn {
+    width: 70px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png) no-repeat scroll -70px -210px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/frdsMenuBtns@2x.png") 2x)
+}
+
+.ie7 .frds .frdsList .frdsSrchCtn .frdsSrchFld,.ie8 .frds .frdsList .frdsSrchCtn .frdsSrchFld {
+    line-height: 60px
+}
+
+.chatCtn {
+    width: 337px;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 40px;
+    z-index: 999
+}
+
+.chatCtn:before,.chatCtn:after {
+    width: 337px;
+    height: 4px;
+    position: absolute;
+    background: url(http://img.jing.fm/assets/jing-beta/chatBgTopBtm.png) no-repeat scroll 0 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTopBtm@2x.png") 2x);
+    top: -4px;
+    left: 0;
+    content: ""
+}
+
+.chatCtn:after {
+    background-position: 0 -11px;
+    top: auto;
+    bottom: -4px
+}
+
+.chatCtn .splt {
+    background: url(http://img.jing.fm/assets/jing-beta/splt.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/splt.png") 1x,url("http://img.jing.fm/assets/jing-beta/splt.png") 2x);
+    height: 1px;
+    float: left;
+    width: 336px
+}
+
+.chatCtn .chatHd {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: url(http://img.jing.fm/assets/jing-beta/chatBgRpt.png) repeat-y scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x)
+}
+
+.chatCtn .chatHd .cls {
+    width: 24px;
+    height: 24px;
+    background: url(http://img.jing.fm/assets/jing-beta/close.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/close.png") 1x,url("http://img.jing.fm/assets/jing-beta/close@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/close.png") 1x,url("http://img.jing.fm/assets/jing-beta/close@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/close.png") 1x,url("http://img.jing.fm/assets/jing-beta/close@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/close.png") 1x,url("http://img.jing.fm/assets/jing-beta/close@2x.png") 2x);
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    display: block
+}
+
+.chatCtn .chatHd .name {
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    margin: 20px 0 8px 20px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%
+}
+
+.chatCtn .chatHd .desc {
+    font-size: 11px;
+    color: #ccc;
+    margin-left: 20px;
+    float: left
+}
+
+.chatCtn .chatBd {
+    float: left;
+    width: 100%;
+    background: url(http://img.jing.fm/assets/jing-beta/chatBgRpt.png) repeat-y scroll -358px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x)
+}
+
+.chatCtn .chatBd .tstmp {
+    background: #000;
+    width: 140px;
+    float: left;
+    margin: 8px 0 8px 100px;
+    opacity: .3;
+    -moz-opacity: .3;
+    font-size: 10px;
+    color: #383838;
+    color: rgba(255,255,255,0.8);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px
+}
+
+.chatCtn .chatBd .chat {
+    float: left;
+    position: relative;
+    margin: 8px 0;
+    width: 300px
+}
+
+.chatCtn .chatBd .chat .avtMask {
+    width: 36px;
+    height: 36px;
+    background: url(http://img.jing.fm/assets/jing-beta/chatAvtMask.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/chatAvtMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatAvtMask@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/chatAvtMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatAvtMask@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/chatAvtMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatAvtMask@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/chatAvtMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatAvtMask@2x.png") 2x);
+    position: absolute;
+    z-index: 999;
+    left: 25px;
+    bottom: 0
+}
+
+.chatCtn .chatBd .chat .avtPos {
+    width: 35px;
+    height: 35px;
+    margin: 4px 10px 0 26px;
+    float: left
+}
+
+.chatCtn .chatBd .chat .avt {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 1px;
+    left: 26px;
+    overflow: hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%
+}
+
+.chatCtn .chatBd .chat .avt .avtImg {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%
+}
+
+.chatCtn .chatBd .chat .bbl {
+    float: left;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#f9f9f9,#eee);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f9f9f9),to(#eee));
+    background-image: -webkit-linear-gradient(top,#f9f9f9,#eee);
+    background-image: -o-linear-gradient(top,#f9f9f9,#eee);
+    background-image: linear-gradient(to bottom,#f9f9f9,#eee);
+    background-repeat: repeat-x;
+    border: 1px solid #1a1a1a;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 1px 0 0 rgba(0,0,0,0.75);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.75);
+    position: relative
+}
+
+.chatCtn .chatBd .chat .bbl:after {
+    -webkit-box-shadow: inset 0 1px 0 1px #fff;
+    -moz-box-shadow: inset 0 1px 0 1px #fff;
+    box-shadow: inset 0 1px 0 1px #fff
+}
+
+.chatCtn .chatBd .chat .bbl:before {
+    content: "";
+    position: absolute;
+    background: url(http://img.jing.fm/assets/jing-beta/chatBgTail.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTail@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTail@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTail@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgTail.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgTail@2x.png") 2x);
+    width: 20px;
+    height: 18px;
+    left: -7px;
+    bottom: -2px
+}
+
+.chatCtn .chatBd .chat .bbl .text {
+    color: #595959;
+    text-shadow: #fff 0 1px 0;
+    text-shadow: none\9;
+    padding: 10px 15px;
+    margin-bottom: 0;
+    position: relative;
+    width: auto;
+    max-width: 180px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto
+}
+
+.chatCtn .chatBd .chat .bbl .shrTrck {
+    max-width: 200px;
+    float: left;
+    margin: 10px 15px
+}
+
+.chatCtn .chatBd .chat .bbl .shrTrck .cv {
+    float: left;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.75);
+    position: relative;
+    margin-right: 10px;
+    background: #eee url(about:blank) no-repeat scroll;
+    background-size: 50px
+}
+
+.chatCtn .chatBd .chat .bbl .shrTrck .cv .plyCtl {
+    width: 20px;
+    height: 20px;
+    background: url(http://img.jing.fm/assets/jing-beta/chatPlay.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/chatPlay.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatPlay@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/chatPlay.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatPlay@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/chatPlay.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatPlay@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/chatPlay.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatPlay@2x.png") 2x);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -10px;
+    margin-top: -10px
+}
+
+.chatCtn .chatBd .chat .bbl .shrTrck .ctt {
+    float: left;
+    margin-top: 10px
+}
+
+.chatCtn .chatBd .chat .bbl .shrTrck .ctt .name {
+    color: #595959;
+    text-shadow: #fff 0 1px 0;
+    text-shadow: none\9;
+    font-weight: normal;
+    margin-bottom: 0;
+    width: auto;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.chatCtn .chatBd .chat .bbl .shrTrck .ctt .desc {
+    color: #595959;
+    text-shadow: #fff 0 1px 0;
+    text-shadow: none\9;
+    margin-bottom: 0;
+    font-size: 10px;
+    width: auto;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.chatCtn .chatBd .chat.rght {
+    float: right
+}
+
+.chatCtn .chatBd .chat.rght .avtMask {
+    left: auto;
+    right: 15px
+}
+
+.chatCtn .chatBd .chat.rght .avtPos {
+    float: right;
+    margin: 4px 16px 0 10px
+}
+
+.chatCtn .chatBd .chat.rght .avt {
+    left: auto;
+    right: 16px
+}
+
+.chatCtn .chatBd .chat.rght .bbl {
+    float: right;
+    background-color: #b7db48;
+    background-image: -moz-linear-gradient(top,#c7ef49,#a0bc46);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#c7ef49),to(#a0bc46));
+    background-image: -webkit-linear-gradient(top,#c7ef49,#a0bc46);
+    background-image: -o-linear-gradient(top,#c7ef49,#a0bc46);
+    background-image: linear-gradient(to bottom,#c7ef49,#a0bc46);
+    background-repeat: repeat-x
+}
+
+.chatCtn .chatBd .chat.rght .bbl:before {
+    background-position: -30px 0;
+    left: auto;
+    right: -7px
+}
+
+.chatCtn .chatBd .chat.rght .bbl:after {
+    -webkit-box-shadow: inset 0 1px 0 1px rgba(255,255,255,0.5);
+    -moz-box-shadow: inset 0 1px 0 1px rgba(255,255,255,0.5);
+    box-shadow: inset 0 1px 0 1px rgba(255,255,255,0.5)
+}
+
+.chatCtn .chatBd .chat.rght .bbl .text {
+    color: #4f5c22;
+    text-shadow: #cbe966 0 1px 0;
+    text-shadow: none\9
+}
+
+.chatCtn .chatBd .chat.rght .bbl .shrTrck .ctt .name,.chatCtn .chatBd .chat.rght .bbl .shrTrck .ctt .desc {
+    color: #4f5c22;
+    text-shadow: #cbe966 0 1px 0;
+    text-shadow: none\9
+}
+
+.chatCtn .chatBd .chat.typing .bbl .typng {
+    background: url(http://img.jing.fm/assets/jing-beta/typing.gif) no-repeat scroll center center;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/typing.gif") 1x,url("http://img.jing.fm/assets/jing-beta/typing@2x.gif") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/typing.gif") 1x,url("http://img.jing.fm/assets/jing-beta/typing@2x.gif") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/typing.gif") 1x,url("http://img.jing.fm/assets/jing-beta/typing@2x.gif") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/typing.gif") 1x,url("http://img.jing.fm/assets/jing-beta/typing@2x.gif") 2x);
+    width: 33px;
+    height: 8px;
+    padding: 10px 15px
+}
+
+.chatCtn .chatBd .chat.emj .bbl {
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.chatCtn .chatBd .chat.emj .bbl:before {
+    background: url(http://img.jing.fm/assets/jing-beta/emjArr.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/emjArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjArr@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/emjArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjArr@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/emjArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjArr@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/emjArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjArr@2x.png") 2x);
+    width: 11px;
+    height: 7px;
+    bottom: 20px
+}
+
+.chatCtn .chatBd .chat.emj .bbl:after {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.chatCtn .chatBd .chat.emj.rght .bbl:before {
+    background-position: -12px 0
+}
+
+.chatCtn .chatDg {
+    background: url(http://img.jing.fm/assets/jing-beta/chatBgRpt.png) repeat-y scroll -716px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/chatBgRpt.png") 1x,url("http://img.jing.fm/assets/jing-beta/chatBgRpt@2x.png") 2x);
+    float: left;
+    width: 297px;
+    padding: 10px 20px;
+    position: relative
+}
+
+.chatCtn .chatDg .typist {
+    width: 252px;
+    border: 1px solid #262528;
+    padding: 12px 34px 12px 10px;
+    resize: none;
+    -webkit-box-shadow: inset 1px 0 2px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 1px 0 2px 0 rgba(0,0,0,0.3);
+    box-shadow: inset 1px 0 2px 0 rgba(0,0,0,0.3);
+    height: 14px;
+    line-height: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #e6e6e6;
+    outline: 0;
+    color: #999;
+    text-shadow: rgba(255,255,255,0.6) 0 1px 0;
+    text-shadow: none\9;
+    overflow: hidden
+}
+
+.chatCtn .chatDg .typist:-moz-placeholder {
+    color: #999
+}
+
+.chatCtn .chatDg .typist:-ms-input-placeholder {
+    color: #999
+}
+
+.chatCtn .chatDg .typist::-webkit-input-placeholder {
+    color: #999
+}
+
+.chatCtn .chatDg .typist:after {
+    -webkit-box-shadow: 0 1px 1px 0 rgba(255,255,255,0.08);
+    -moz-box-shadow: 0 1px 1px 0 rgba(255,255,255,0.08);
+    box-shadow: 0 1px 1px 0 rgba(255,255,255,0.08)
+}
+
+.chatCtn .chatDg .emjBtn {
+    background: url(http://img.jing.fm/assets/jing-beta/emoji/emj.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/emoji/emj.png") 1x,url("http://img.jing.fm/assets/jing-beta/emoji/emj@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/emoji/emj.png") 1x,url("http://img.jing.fm/assets/jing-beta/emoji/emj@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/emoji/emj.png") 1x,url("http://img.jing.fm/assets/jing-beta/emoji/emj@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/emoji/emj.png") 1x,url("http://img.jing.fm/assets/jing-beta/emoji/emj@2x.png") 2x);
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 26px;
+    opacity: .5;
+    -moz-opacity: .5
+}
+
+.chatCtn .emjCtn {
+    background: url(http://img.jing.fm/assets/jing-beta/emjBg.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/emjBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjBg@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/emjBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjBg@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/emjBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjBg@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/emjBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjBg@2x.png") 2x);
+    width: 324px;
+    float: left;
+    padding: 5px 4px 5px 8px;
+    height: 126px
+}
+
+.chatCtn .emjCtn .emjos {
+    width: 324px;
+    float: left;
+    margin-bottom: 10px
+}
+
+.chatCtn .emjCtn .emjos .emj {
+    float: left;
+    margin: 8px 10px 8px 14px
+}
+
+.chatCtn .emjCtn .emjSldr {
+    float: left;
+    position: absolute;
+    left: 50%;
+    margin-left: -22.5px;
+    bottom: 8px
+}
+
+.chatCtn .emjCtn .emjSldr .sldr {
+    background: url(http://img.jing.fm/assets/jing-beta/emjSldr.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/emjSldr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjSldr@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/emjSldr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjSldr@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/emjSldr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjSldr@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/emjSldr.png") 1x,url("http://img.jing.fm/assets/jing-beta/emjSldr@2x.png") 2x);
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 5px
+}
+
+.chatCtn .emjCtn .emjSldr .sldr.selected {
+    background-position: -10px 0
+}
+
+.no-borderradius .chatCtn .chatBd .chat .avtMask {
+    width: 33px;
+    height: 33px;
+    background-image: none;
+    border: 2px solid #fff;
+    bottom: 1px;
+    left: 24px
+}
+
+.no-borderradius .chatCtn .chatBd .chat .avtPos {
+    margin-right: 16px
+}
+
+.no-borderradius .chatCtn .chatBd .chat .bbl:before {
+    content: "";
+    background: url(http://img.jing.fm/assets/jing-beta/chatBgTail-ie.png) no-repeat scroll 0 0;
+    width: 14px;
+    height: 21px;
+    left: -12px;
+    bottom: 2px
+}
+
+.no-borderradius .chatCtn .chatBd .chat.rght .avtMask {
+    left: auto;
+    right: 14px
+}
+
+.no-borderradius .chatCtn .chatBd .chat.rght .avtPos {
+    margin-left: 16px
+}
+
+.no-borderradius .chatCtn .chatBd .chat.rght .bbl:before {
+    content: "";
+    background: url(http://img.jing.fm/assets/jing-beta/chatBgTail-ie.png) no-repeat scroll -20px 0;
+    left: auto;
+    right: -12px
+}
+
+.flwLstBtn .blckpCtn:after {
+    background-position: 0 -15px;
+    width: 15px;
+    height: 10px;
+    bottom: -9px;
+    left: 31px
+}
+
+.shrIcon {
+    background: url(http://img.jing.fm/assets/jing-beta/shrIcon.png) no-repeat scroll center center;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcon.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcon@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcon.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcon@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcon.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcon@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcon.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcon@2x.png") 2x);
+    width: 14px;
+    height: 11px;
+    display: inline-block;
+    margin-left: 5px
+}
+
+.fsapp {
+    overflow: hidden
+}
+
+.fsapp .shrCtn {
+    width: 380px;
+    height: 252px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -190px;
+    margin-top: -126px
+}
+
+.fsapp .shrCtn .shrCtt {
+    float: left;
+    margin-bottom: 58px;
+    position: relative;
+    width: 380px
+}
+
+.fsapp .shrCtn .shrCtt .txtCtn {
+    float: left;
+    width: 245px;
+    height: 141px;
+    background: url(http://img.jing.fm/assets/jing-beta/shrTxtBg.png) repeat-x scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/shrTxtBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrTxtBg@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/shrTxtBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrTxtBg@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/shrTxtBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrTxtBg@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/shrTxtBg.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrTxtBg@2x.png") 2x);
+    overflow: hidden
+}
+
+.fsapp .shrCtn .shrCtt .txtCtn .text {
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 48px;
+    border: 0;
+    outline: 0;
+    float: left;
+    background: transparent;
+    resize: none;
+    overflow: auto;
+    width: 250px;
+    height: 140px
+}
+
+.fsapp .shrCtn .shrCtt .cv {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 110px;
+    height: 110px;
+    background: #eee url(about:blank) no-repeat scroll;
+    background-size: 100%;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 0 0 rgba(0,0,0,0.2);
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.2);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.fsapp .shrCtn .shrBar {
+    float: left;
+    background: #444;
+    width: 380px;
+    height: 53px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative
+}
+
+.fsapp .shrCtn .shrBar .text {
+    color: #fff;
+    line-height: 53px;
+    padding: 0 40px 0 20px;
+    float: left
+}
+
+.fsapp .shrCtn .shrBar .shrBtn {
+    background: url(http://img.jing.fm/assets/jing-beta/shrIcons.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcons@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcons@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcons@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/shrIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/shrIcons@2x.png") 2x);
+    width: 30px;
+    height: 53px;
+    display: block;
+    float: left;
+    margin-right: 20px
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.wb {
+    background-position: 0 0
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.wb.selected {
+    background-position: 0 -53px
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.oicq {
+    background-position: -30px 0
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.oicq.selected {
+    background-position: -30px -53px
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.rr {
+    background-position: -60px 0
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.rr.selected {
+    background-position: -60px -53px
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.qq {
+    background-position: -90px 0
+}
+
+.fsapp .shrCtn .shrBar .shrBtn.qq.selected {
+    background-position: -90px -53px
+}
+
+.fsapp .shrCtn .shrBar .shrCnfm {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 68px;
+    height: 53px;
+    background: #62a946;
+    color: #fff;
+    line-height: 53px;
+    text-align: center;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.fsapp.stngs {
+    background: #eee
+}
+
+.fsapp .stngs .swtch {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: url(http://img.jing.fm/assets/jing-beta/stngsIcons.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/stngsIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/stngsIcons@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/stngsIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/stngsIcons@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/stngsIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/stngsIcons@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/stngsIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/stngsIcons@2x.png") 2x)
+}
+
+.fsapp .stngs .swtch.rtCv {
+    background-position: 0 0
+}
+
+.fsapp .stngs .swtch.rtCv:hover,.fsapp .stngs .swtch.rtCv.selected {
+    background-position: 0 -70px
+}
+
+.fsapp .stngs .swtch.lgA {
+    background-position: -70px 0
+}
+
+.fsapp .stngs .swtch.lgA:hover,.fsapp .stngs .swtch.lgA.selected {
+    background-position: -70px -70px
+}
+
+.fsapp .stngs .swtch.hbr {
+    background-position: -140px 0
+}
+
+.fsapp .stngs .swtch.hbr:hover,.fsapp .stngs .swtch.hbr.selected {
+    background-position: -140px -70px
+}
+
+.fsapp .stngs .swtch.wb {
+    background-position: -210px 0
+}
+
+.fsapp .stngs .swtch.wb:hover,.fsapp .stngs .swtch.wb.selected {
+    background-position: -210px -70px
+}
+
+.fsapp .stngs .swtch.rr {
+    background-position: -280px 0
+}
+
+.fsapp .stngs .swtch.rr:hover,.fsapp .stngs .swtch.rr.selected {
+    background-position: -280px -70px
+}
+
+.fsapp .stngs .swtch.qq {
+    background-position: -350px 0
+}
+
+.fsapp .stngs .swtch.qq:hover,.fsapp .stngs .swtch.qq.selected {
+    background-position: -350px -70px
+}
+
+.fsapp .stngs .swtch.oicq {
+    background-position: -420px 0
+}
+
+.fsapp .stngs .swtch.oicq:hover,.fsapp .stngs .swtch.oicq.selected {
+    background-position: -420px -70px
+}
+
+.fsapp .stngs .swtch.autoSnc {
+    background-position: -490px 0
+}
+
+.fsapp .stngs .swtch.autoSnc:hover,.fsapp .stngs .swtch.autoSnc.selected {
+    background-position: -490px -70px
+}
+
+.fsapp .stngs .swtch.rltd {
+    background-position: -560px 0
+}
+
+.fsapp .stngs .swtch.rltd:hover,.fsapp .stngs .swtch.rltd.selected {
+    background-position: -560px -70px
+}
+
+.fsapp .stngs .swtch.rstPw {
+    background-position: -630px 0
+}
+
+.fsapp .stngs .swtch.rstPw:hover,.fsapp .stngs .swtch.rstPw.selected {
+    background-position: -630px -70px
+}
+
+.fsapp .stngs .swtch .desc {
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 90px 0 0;
+    float: left;
+    width: 100px;
+    margin-left: -15px
+}
+
+.fsapp .stngs .swtch:hover .desc,.fsapp .stngs .swtch.selected .desc {
+    color: #62a946
+}
+
+.fsapp.explr {
+    background: #eee
+}
+
+.fsapp .explr {
+    float: left;
+    width: 100%;
+    position: relative
+}
+
+.fsapp .explr .expCtn {
+    position: absolute;
+    width: 100%;
+    left: 0
+}
+
+.fsapp .explr .expCtn .bdg {
+    float: left;
+    width: 100px;
+    position: absolute
+}
+
+.fsapp .explr .expCtn .bdg:hover {
+    opacity: .7;
+    -moz-opacity: .7;
+    -webkit-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -moz-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    -o-transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1);
+    transition: opacity .3s cubic-bezier(0.075,0.82,0.165,1)
+}
+
+.fsapp .explr .expCtn .bdg .bdgImg {
+    width: auto;
+    max-width: 100px;
+    height: 100px;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 3px #aaa;
+    -moz-box-shadow: 0 0 3px #aaa;
+    box-shadow: 0 0 3px #aaa
+}
+
+.fsapp .explr .expCtn .bdg .bdgImg.anmt {
+    -webkit-animation: scaleUp 350ms cubic-bezier(0.895,0.03,0.685,0.22);
+    -moz-animation: scaleUp 350ms cubic-bezier(0.895,0.03,0.685,0.22);
+    -ms-animation: scaleUp 350ms cubic-bezier(0.895,0.03,0.685,0.22);
+    -o-animation: scaleUp 350ms cubic-bezier(0.895,0.03,0.685,0.22);
+    animation: scaleUp 350ms cubic-bezier(0.895,0.03,0.685,0.22)
+}
+
+.fsapp .explr .expCtn .bdg .desc {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 20px;
+    color: #555;
+    text-align: center;
+    width: 150px;
+    margin-left: -25px
+}
+
+.fsapp .explr .expNav {
+    position: relative;
+    text-align: center;
+    width: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    border-top: #333 5px solid;
+    height: 88px
+}
+
+.fsapp .explr .expNav .arr {
+    width: 115px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    background: url(http://img.jing.fm/assets/jing-beta/eplrArr.png) no-repeat scroll center top;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/eplrArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/eplrArr@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/eplrArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/eplrArr@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/eplrArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/eplrArr@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/eplrArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/eplrArr@2x.png") 2x)
+}
+
+.fsapp .explr .expNav .part {
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 40px 15px 30px 15px;
+    position: relative;
+    color: #888;
+    outline: 0;
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear
+}
+
+.fsapp .explr .expNav .part.selected {
+    color: #000;
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear
+}
+
+.fsapp .explr .expNav .bdg {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: url(about:blank) no-repeat scroll;
+    background-size: 100%;
+    float: left;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    margin-left: -2px;
+    -webkit-box-shadow: inset 0 0 1px rgba(255,255,255,0.35);
+    -moz-box-shadow: inset 0 0 1px rgba(255,255,255,0.35);
+    box-shadow: inset 0 0 1px rgba(255,255,255,0.35)
+}
+
+.fsapp .explr .expNav .bdg:after {
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.fsapp .explr .expNav .plyCtl {
+    background: url(http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png) no-repeat scroll -154px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl.png") 1x,url("http://img.jing.fm/assets/jing-beta/altntvPlayCtl@2x.png") 2x);
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    display: none;
+    right: 16px;
+    top: 15px
+}
+
+.fsapp .explr .ufo {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: url(about:blank) no-repeat scroll;
+    background-size: 100%;
+    float: left;
+    -webkit-box-shadow: 0 0 3px #aaa;
+    -moz-box-shadow: 0 0 3px #aaa;
+    box-shadow: 0 0 3px #aaa;
+    position: absolute
+}
+
+.fsapp.top {
+    background: #eee
+}
+
+.fsapp .top {
+    position: absolute
+}
+
+.fsapp .top .topCt {
+    position: absolute;
+    float: left
+}
+
+.fsapp .top .topCt .topUnitCt {
+    float: left;
+    margin: 0 3px 3px 0;
+    position: relative;
+    background: #e1e1e1
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e1e1e1
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn .cv {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn .rndSqr {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-image: url(about:blank)
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn .rndSqr .btn {
+    background: url(http://img.jing.fm/assets/jing-beta/loveHateBtn.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 12px
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn .rndSqr .btn.love {
+    background-position: 0 -50px
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn .rndSqr .btn.love.selected {
+    background-position: 0 0
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn .n {
+    font-size: 14px;
+    opacity: 0;
+    -moz-opacity: 0;
+    bottom: 26px
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn .atn {
+    font-size: 10px;
+    opacity: 0;
+    -moz-opacity: 0;
+    bottom: 12px
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn:hover,.fsapp .top .topCt .topUnitCt .rndSqrCtn.selected {
+    -webkit-box-shadow: 0 0 12px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 12px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.75);
+    -webkit-transition: all .2s ease-in-out both;
+    -moz-transition: all .2s ease-in-out both;
+    -o-transition: all .2s ease-in-out both;
+    transition: all .2s ease-in-out both
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn:hover .rndSqr,.fsapp .top .topCt .topUnitCt .rndSqrCtn.selected .rndSqr {
+    background-image: url(http://img.jing.fm/assets/jing-beta/rndSqrMask.png);
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/rndSqrMask.png") 1x,url("http://img.jing.fm/assets/jing-beta/rndSqrMask@2x.png") 2x)
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn:hover .n,.fsapp .top .topCt .topUnitCt .rndSqrCtn.selected .n {
+    font-size: 14px;
+    opacity: 1;
+    -moz-opacity: 1
+}
+
+.fsapp .top .topCt .topUnitCt .rndSqrCtn:hover .atn,.fsapp .top .topCt .topUnitCt .rndSqrCtn.selected .atn {
+    font-size: 10px;
+    opacity: .75;
+    -moz-opacity: .75
+}
+
+.fsapp .top .topCt .shdw {
+    background: url(http://img.jing.fm/assets/jing-beta/topShdw.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/topShdw.png") 1x,url("http://img.jing.fm/assets/jing-beta/topShdw@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/topShdw.png") 1x,url("http://img.jing.fm/assets/jing-beta/topShdw@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/topShdw.png") 1x,url("http://img.jing.fm/assets/jing-beta/topShdw@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/topShdw.png") 1x,url("http://img.jing.fm/assets/jing-beta/topShdw@2x.png") 2x);
+    width: 582px;
+    height: 72px;
+    bottom: -90px;
+    position: absolute;
+    left: 50%;
+    margin-left: -291px
+}
+
+.fsapp.mbl {
+    background: #eee
+}
+
+.fsapp .mbl {
+    float: left
+}
+
+.fsapp .mbl .rndSqrCtn .rndSqr .btn {
+    background: url(http://img.jing.fm/assets/jing-beta/loveHateBtn.png) no-repeat scroll -43px -50px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/loveHateBtn.png") 1x,url("http://img.jing.fm/assets/jing-beta/loveHateBtn@2x.png") 2x);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 15px;
+    top: 12px
+}
+
+.fsapp .mbl .rndSqrCtn .rndSqr .btn.selected {
+    background-position: -43px 0
+}
+
+.fsapp .mbl .rndSqrCtn .rndSqr.stats {
+    background: #62a946;
+    background-image: none
+}
+
+.fsapp .mbl .rndSqrCtn .tit {
+    font-size: 20px
+}
+
+.fsapp .mbl .rndSqrCtn .name {
+    font-size: 12px
+}
+
+.fsapp .mbl .rndSqrCtn .desc {
+    font-size: 10px
+}
+
+.fsapp.fltr {
+    background: #eee
+}
+
+.fsapp .fltr .fltrInput {
+    background: #fff;
+    float: left;
+    border: 5px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    margin-left: 50px;
+    left: 0
+}
+
+.fsapp .fltr .fltrInput .input {
+    width: 400px;
+    height: 60px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2);
+    outline: none 0;
+    border: 0;
+    padding: 0 40px 0 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: bold;
+    background: #f1f1f1
+}
+
+.fsapp .fltr .fltrInput .btn {
+    background: url(http://img.jing.fm/assets/jing-beta/bgBtns.png) no-repeat scroll -120px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/bgBtns.png") 1x,url("http://img.jing.fm/assets/jing-beta/bgBtns@2x.png") 2x);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 11px;
+    right: 11px
+}
+
+.fsapp .fltr .fltrsCtn {
+    float: left;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    right: 45px
+}
+
+.fsapp .fltr .fltrsCtn .ctt {
+    width: 150px;
+    height: 150px;
+    background: #e1e1e1;
+    float: left;
+    color: #444;
+    font-size: 14px;
+    line-height: 150px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 36px 35px 0
+}
+
+.fsapp .fltr .fltrsCtn .ctt.selected {
+    background: #62a946;
+    color: #fff
+}
+
+.ie7 .fltr .fltrInput .input,.ie8 .fltr .fltrInput .input {
+    line-height: 60px
+}
+
+.fsapp.rls {
+    background: #62a946
+}
+
+.fsapp .rlsCtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-left: 2px solid rgba(255,255,255,0.8);
+    border-left: 2px solid #fff\9;
+    padding: 35px 35px 45px 35px
+}
+
+.fsapp .rlsCtn .rlsTit {
+    background: url(http://img.jing.fm/assets/jing-beta/rlsNt.png) no-repeat scroll 0 -55px;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    width: 150px;
+    height: 43px;
+    position: relative
+}
+
+.fsapp .rlsCtn .rlsVer {
+    position: absolute;
+    right: -100px;
+    color: #fff
+}
+
+.fsapp .rlsCtn .rlsCttCtn {
+    font-size: 12px;
+    color: #f1f1f1;
+    list-style: decimal inside;
+    margin-top: 35px
+}
+
+.fsapp .rlsCtn .rlsCttCtn li {
+    margin-bottom: 18px
+}
+
+.fsapp .rlsCtn .cnfmBtn {
+    background: url(http://img.jing.fm/assets/jing-beta/rlsNt.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/rlsNt.png") 1x,url("http://img.jing.fm/assets/jing-beta/rlsNt@2x.png") 2x);
+    width: 41px;
+    height: 41px;
+    display: block;
+    position: absolute;
+    bottom: 0
+}
+
+.fsapp .rlsCtn .cnfmBtn.cncl {
+    background-position: 0 0;
+    right: 113px
+}
+
+.fsapp .rlsCtn .cnfmBtn.cnfm {
+    background-position: -68px 0;
+    right: 45px
+}
+
+.gdCtn {
+    background: #62a946;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999
+}
+
+.gdCtn .gdElmt {
+    position: absolute;
+    display: none
+}
+
+.gdCtn .gdElmt .dscp {
+    font-size: 15px;
+    color: #fff;
+    text-align: center
+}
+
+.gdCtn .gdElmt .gdBtn {
+    color: #8a7d10;
+    text-shadow: #eedc3e 1px 0 0;
+    font-size: 15px;
+    text-align: center;
+    background: #e6d013;
+    border: 1px solid #7fa306;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(255,252,252,0.75);
+    -moz-box-shadow: inset 0 1px 1px 0 rgba(255,252,252,0.75);
+    box-shadow: inset 0 1px 1px 0 rgba(255,252,252,0.75);
+    padding: 10px 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.gdCtn .gdElmt.btmTip {
+    bottom: 75px
+}
+
+.gdCtn .gdElmt.btmTip .schArr {
+    background: url(http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/schArr@2x.png") 2x);
+    display: block;
+    width: 65px;
+    height: 71px;
+    margin-left: 526px
+}
+
+.gdCtn .rgstIcon {
+    background: url(http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/rgstIcons@2x.png") 2x);
+    width: 113px;
+    height: 113px
+}
+
+.gdCtn .rgstIcon.stepOne {
+    background-position: 0 0
+}
+
+.gdCtn .rgstIcon.stepTwo {
+    background-position: -125px 0
+}
+
+.gdCtn .rgstIcon.stepThr {
+    background-position: -250px 0
+}
+
+.gdCtn .ntLngBlt,.gdCtn .ntLngBltHd,.gdCtn .ntLngBltTl {
+    background: url(http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt.png) no-repeat scroll;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt.png") 1x,url("http://img.jing.fm/assets/jing-beta/guide/rgstGd/ntLngBlt@2x.png") 2x);
+    height: 42px;
+    float: left;
+    display: block;
+    position: absolute
+}
+
+.gdCtn .ntLngBltHd,.gdCtn .ntLngBltTl {
+    width: 24px;
+    position: absolute;
+    top: 0
+}
+
+.gdCtn .ntLngBltHd {
+    background-position: 0 0;
+    left: -24px
+}
+
+.gdCtn .ntLngBltTl {
+    background-position: 0 -50px;
+    right: -24px
+}
+
+.gdCtn .ntLngBlt {
+    background-repeat: repeat-x;
+    background-position: 0 -200px;
+    color: #62a946;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 42px
+}
+
+.gdCtn .ntLngBlt.rgt .ntLngBltHd {
+    background-position: 0 -150px;
+    right: -24px;
+    left: auto
+}
+
+.gdCtn .ntLngBlt.rgt .ntLngBltTl {
+    background-position: 0 -100px;
+    left: -24px;
+    right: auto
+}
+
+.lrc {
+    position: absolute;
+    z-index: 9999;
+    background: #62a946;
+    background: rgba(98,169,70,0.98);
+    width: 25%;
+    padding: 50px 15px;
+    left: 25px;
+    top: 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.lrc .lrcCtn {
+    overflow: hidden
+}
+
+.lrc .lrcCtn .text {
+    text-align: center;
+    color: #eee;
+    font-size: 12px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 18px
+}
+
+.lrc .lrcCtn .text.selected {
+    font-size: 13px;
+    color: #547c46;
+    text-shadow: 3px 3px 3px rgba(255,255,255,0.3)
+}
+
+.lrc .lrcCtn .text.italic {
+    font-style: italic;
+    font-size: 11px
+}
+
+.lrc .lrcCtn .text.tit {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.lrc .cls {
+    background: url(http://img.jing.fm/assets/jing-beta/lrcSprt.png) no-repeat scroll -26px 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px
+}
+
+.lrcBtn {
+    background: #62a946;
+    width: 85px;
+    height: 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 35px;
+    left: 34px;
+    line-height: 40px;
+    padding: 0 0 0 15px;
+    z-index: 998
+}
+
+.lrcBtn:hover {
+    color: #fff
+}
+
+.lrcBtn .btn {
+    background: url(http://img.jing.fm/assets/jing-beta/lrcSprt.png) no-repeat scroll 0 0;
+    background-image: -webkit-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    background-image: -moz-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    background-image: -ms-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    background-image: -o-image-set(url("http://img.jing.fm/assets/jing-beta/lrcSprt.png") 1x,url("http://img.jing.fm/assets/jing-beta/lrcSprt@2x.png") 2x);
+    width: 16px;
+    height: 19px;
+    float: left;
+    margin: 11px 14px 0 0
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.hide {
+    display: none
+}
+
+.dspr {
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -moz-opacity: 0
+}
+
+.show {
+    display: block
+}

@@ -1,0 +1,79 @@
+
+			body{
+				font-family:'Segoe UI Light','Segoe UI',Arial,'微软雅黑',sans-serif;
+				font-size: 20px;
+				color:#333333;
+
+			}
+			.breath {
+				margin:100px auto;
+				text-indent:-999em;
+				height:4px;
+				line-height: 4px;
+				width: 50px;
+				overflow:hidden;
+				
+				background: #99dd33;
+				color: #fff;
+				opacity:0.1;
+
+				-webkit-box-shadow: 0 0 5px #99dd33;
+				-moz-box-shadow: 0 0 5px #99dd33;
+				-ms-box-shadow: 0 0 5px #99dd33;
+				-o-box-shadow: 0 0 5px #99dd33;
+				box-shadow: 0 0 5px #99dd33;
+				-webkit-border-radius:2px;
+				-moz-border-radius:2px;
+				-ms-border-radius:2px;
+				-o-border-radius:2px;
+				border-radius:2px;
+				
+				-webkit-animation-name: breath;
+				-webkit-animation-duration: 6s;		/*人的普通呼吸时间是3秒每次，深呼吸时间是6秒每次*/
+				-webkit-animation-timing-function: ease-in-out;
+				-webkit-animation-iteration-count: infinite;
+			}
+
+			@-webkit-keyframes 'breath' {
+				from {
+					opacity:0.1;
+				}
+				50% {
+					opacity:1;
+				}
+				to {
+					opacity:0.1;
+				}
+			}
+			
+			@-webkit-keyframes 'breath2' {
+				from {
+					opacity:0.5;
+				}
+				50% {
+					opacity:1;
+				}
+				to {
+					opacity:0.5;
+				}
+			}
+			
+			.size2{
+				
+				width:100px;
+				height:30px;
+				line-height:25px;
+				text-indent:0;
+				background:orange;
+				text-align:center;
+				text-shadow:1px 1px 3px #333;
+				
+				-webkit-box-shadow:0 0 5px orange;
+				-moz-box-shadow: 0 0 5px orange;
+				-ms-box-shadow: 0 0 5px orange;
+				-o-box-shadow: 0 0 5px orange;
+				box-shadow: 0 0 5px orange;
+				
+				-webkit-animation-name: breath2;
+			}
+		
